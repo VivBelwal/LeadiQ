@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Circular Std', sans-serif;
+    background-color: #063C4D;
+}
+
+#navTop{
+  
+    height: 58px;
+    width: 100%;
+    background-color: #063C4D;
+  
+
+}
+#navTop>div{
+    display: flex;
+    justify-content: end;
+
+    gap: 20px;
+    margin-right: 80px;
+}
+#navTop>div>p{
+    font-size:  15px;
+    line-height: 18px;
+    color: #DAE2E3;
+}
+#navTop>div>p:hover{
+    cursor: pointer;
+}
+#navTop img{
+  width: 18px;
+  margin-left: 10px;
+}
+#navTop>div>div{
+    display: flex;
+    margin-top: 0px;
+}
+#navTop>div>div:hover{
+cursor: pointer;
+}
+#navTop span{
+    display: block;
+    font-size:  15px;
+    line-height: 18px;
+    color: #DAE2E3;
+    margin-top: 15px;
+    
+}
+
+
+
+  #prosPect{
+    width: 100%;
+    display: flex;
+    height: 566px;
+    border: 1px solid white;
+    margin-top: 100px;
+  }
+  #prosPect>div:first-child{
+    width: 495px;
+    height: 526px;
+color: white;
+  }
+  #prosPect>div:first-child>h1{
+
+    height: 75px;
+    font-size: 62px;
+    font-weight: 500;
+
+  }
+  #prosPect>div:first-child>p{
+     height: 108px;
+     margin-bottom: 10px;
+     font-size: 22px;
+
+  }
+
+  
+
+  #pros{
+
+    background: url(https://assets.website-files.com/60819f9be381394642b5659e/628e636de30eb30ee9fe126f_leadiq-background-hero-dark.svg);
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 50%;
+   margin-right: 0px;
+  }
+
+  #salesSection{
+
+    height: 800.203px;
+width: 1349px;
+padding: 140px 24px 140px 24px;
+background-color: white;
+  }
+  #back2{
+    background: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b42dfc784618c92acce7_leadiq-activities-background-2.svg),
+    url(https://assets.website-files.com/60819f9be381394642b5659e/6081b42d78a93f84724ea09f_leadiq-activities-background-1.svg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: 90%,12%;
+  }
+  #title{
+    height: 108px;
+    width: 650px;
+    margin-bottom: 10px;
+    font-size: 38px;
+    font-weight: 500;
+    color: #063C4D;
+    margin: auto;
+    text-align: center;
+  }

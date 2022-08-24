@@ -1,0 +1,151 @@
+/* Navbar  */
+
+#navContainer{
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    height: 48px;
+    width: 100%;
+    background-color: #063C4D;
+    color: #DAE2E3;
+}
+
+#nav{
+    
+    display: flex;
+    justify-content: space-around;
+    padding:  24px 0px;
+  
+}
+#logo{
+    width: 127px;
+    height: 37px;
+   margin-left:-20px ;
+}
+#logo>img{
+    width: 100%;
+}
+
+#details{
+    display: flex;
+    gap:-10px;
+    margin-top: 5px;
+}
+
+#details>div{
+    
+    width: 140px;
+    margin-left: -10px;
+    height: 18px;
+    gap: 10px;
+   
+}
+#details>div:nth-child(2){
+    margin-left: -30px;
+    }
+#details>div:nth-child(3){
+margin-left: -30px;
+}
+#details>div:nth-child(4){
+    margin-left: -20px;
+    }
+
+#details>div>p:first-child{
+   
+    margin-top: 5px;
+}
+.arrow{
+    
+   
+   margin-left: 5px;
+    width:7px;
+    margin-top: 8px;
+  
+
+    transform: rotate(90deg);
+}
+
+
+
+
+#btn{
+padding: 15px 24px;
+border-radius: 30px;
+font-size: 16px;
+font-weight:550;
+margin-right: 20px;
+background-color: #ffd265;
+color: #063C4D;
+margin-right: -18px;
+}
+#btn:hover{
+    background-color: #efb735;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#logo,#details,:hover{
+    cursor: pointer;
+}
+
+#WhyLead{
+    display: none;
+    color: #063C4D;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    width: 130px;
+ height: 80px;
+    font-size: 16px;
+    margin-top: 15px;
+    position: absolute;
+}
+
+
+#Solutions{
+    display: none;
+    gap: 40px;
+    color: #063C4D;
+    background-color: white;
+    padding: 15px 30px;
+    border-radius: 20px;
+    width: 350px;
+    margin-top: 15px;
+    font-size: 16px;
+    position: absolute;
+}
+#Solutions>div>h4{
+    font-size: 18px;
+    font-weight: 500;
+    color: #85959A;
+}
+#Resources{
+    display: none;
+    
+    color: #063C4D;
+    background-color: white;
+    padding: 15px 20px 15px 20px;
+    border-radius: 20px;
+    width: 120px;
+    margin-top: 15px;
+    font-size: 16px;
+    position: absolute;
+
+}
+#WhyLead>p:hover{
+    cursor: pointer;
+    color: #00D586;
+    transition: 0.5s;
+  
+  }
+  #Resources>p:hover{
+    cursor: pointer;
+    color: #00D586;
+    transition: 0.5s;
+  }
+  #Solutions>div>p:hover{
+    cursor: pointer;
+    color: #00D586;
+    transition: 0.5s;
+  }
+
+
