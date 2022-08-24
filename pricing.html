@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #head{
+            width: 40%;
+            margin: auto;
+            text-align: center;
+            border: 1px solid black;
+        }
+        #annual{
+            display: flex;
+            gap: 20px;
+        }
+        #annual>div{
+            border: 1px solid black;
+        }
+        #pl{
+            width: 20%;
+            margin: auto;
+            text-align: center;
+        }
+        #pl2{
+            width: 70%;
+            margin: auto;
+            text-align: center;
+        }
+        #pl3{
+            width: 60%;
+            margin: auto;
+            text-align: center;
+        }
+        #teams{
+            display: grid;
+            grid-template-columns: repeat(6,1fr);
+            grid-template-rows: auto;
+            border: 1px solid black;
+        }
+        #teams>div>img{
+            width: 90%;
+            border: 1px solid black;
+        }
+        #comparediff{
+            display: flex;
+            gap: 30px;
+            border: 1px solid black;
+        }
+        #comparing{
+            display: flex;
+            gap: 30px;
+            border: 1px solid black;
+        }
+        #comparing>div{
+            width: 20%;
+            border: 1px solid black;
+        }
+        #crowddiv{
+            display: flex;
+            gap: 20px;
+        }
+        #crowddiv>div{
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    <div id="head">
+        <h1>Pricing</h1>
+        <p>Plans designed to fit your workflow and prospecting needs.</p>
+        <h3>Monthly Plan <button>O</button> Annual Plan</h3>
+    </div>
+    <div id="annual">
+        <div>
+            <h1 id="geth1">Free</h1>
+            <h1 id="geth2">Rps 0</h1>
+            <p>Per User</p>
+            <p>Get started with LeadIQ for free, setup takes less than 5 minutes.</p>
+            <button id="getbutton">Get started</button>
+            <h3>Every user gets:</h3>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>15 verified work emails per week</p>
+                </div>
+            </div>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>0 mobile phone numbers</p>
+                </div>
+            </div>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>7 captures to sales platforms</p>
+                </div>
+            </div>
+            <button id="getbutton">Compare Plans</button>
+        </div>
+        <div>
+            <h1 id="geth1">Starter</h1>
+            <h1 id="geth2"><span> Rps 60</span>/monthly</h1>
+            <p>Per User</p>
+            <p>For small sales teams just starting out, lookking to find contact data on their prospects.</p>
+            <button id="getbutton">Get started</button>
+            <h3>Every user gets:</h3>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>250 verified work emails per week</p>
+                </div>
+            </div>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>25 mobile phone numbers</p>
+                </div>
+            </div>
+            <button id="getbutton">Compare Plans</button>
+        </div>
+        <div>
+            <div id="pro">
+                <h1>Pro</h1>
+                <button>Popular</button>
+            </div>
+            <h1 id="geth2"><span>Rps 120</span> /monthly</h1>
+            <p>Per User</p>
+            <p>For grwing sales teams focused on building pipeline with a smooth outbound prospecting process.</p>
+            <button id="getbuttonyel">Get started</button>
+            <h3>Every user gets:</h3>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>500 verified work emails per week</p>
+                </div>
+            </div>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>50 mobile phone numbers</p>
+                </div>
+            </div>
+            <button id="getbuttonyel">Compare Plans</button>
+        </div>
+        <div>
+            <h1 id="geth1">Enterprise</h1>
+            <h1 id="geth2">Contact us</h1>
+            <p>For eshtablishment sales teams looking to increase outbound activities and response rates without riskinng data hygiene.</p>
+            <button id="getbutton">Get started</button>
+            <h3>Every user gets:</h3>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>Unlimited targeted prospecting (10,000/month per user)</p>
+                </div>
+            </div>
+            <div id="getdiv">
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                </div>
+                <div>
+                    <p>100 mobile phone numbers</p>
+                </div>
+            </div>
+
+            <button id="getbutton">Compare Plans</button>
+        </div>
+    </div>
+    <div id="teams">
+        <div>
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc798a2a5f2b656ab9f3b1_Clari-01.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae3578a93f5c114e7b4b_leadiq-logo-showpad.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc7609eda2bf6bb6f87039_walkme-client-logo-03.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc77f3bbee5c4503c22617_Segment-client-logo-04.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae3556fe8b6d153fa680_leadiq-logo-sitecore.svg" alt="">
+        </div>
+        <div>
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae357d19b8697089fb66_leadiq-logo-mulesoft.svg" alt="">
+        </div>
+    </div>
+    <div id="compare">
+        <div id="pl">
+            <h1>Plans comparison</h1>
+        </div>
+        <div id="comparecontainer">
+            <div id="comparemaincontainer">
+                <div id="comparediff">
+                    <div>
+                        <h1>Free</h1>
+                        <button id="getbutton">Get started</button>
+                    </div>
+                    <div>
+                        <h1>Starter</h1>
+                        <button id="getbutton">Get started</button>
+                    </div>
+                    <div>
+                        <h1>Pro</h1>
+                        <button id="getbutton1">Get started</button>
+                    </div>
+                    <div>
+                        <h1>Enterprise</h1>
+                        <button id="getbutton">Get started</button>
+                    </div>
+                </div>
+                <div id="comaprefeature">
+                    <h3>Features</h3>
+                </div>
+                <div id="compareplans">
+                    <div id="comparing">
+                        <div>
+                            <p>Save prospects into Google</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Capture contacts into Hubspot</p>
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Hubspot duplicate detection</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Saleforce duplicate detection</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Sync captures to Salesforce in one click</p>
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Sync captures to Outreach Sequences</p>
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Save prospects into SalesLoft Cadences</p>
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Access to the LeadIQ databasse</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            <p>Annual plan only</p>
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Custom field mapping for Salesforce, Outreach and SalesLoft</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Custom field mapping for Hubspot</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+                        <div id="prodivcomp">
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>File enrichment (CSV Upload)</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            <p>100 row per CSV</p>
+                        </div>
+                        <div>
+                            <p>1000 row per CSV</p>
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Capture a custom lead</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Priority support and dedicated customer success team</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Prospect job change notifications</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Update contact information with one click</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Prospecting and team analytics dashboards</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Territory management</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Manage data type reps can capture</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            
+                        </div>
+                        <div>
+                            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
+                        </div>
+
+                    </div>
+                    <div id="comparing">
+                        <div>
+                            <p>Single sign on (SSO)</p>
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div id="prodivcomp">
+                            <p>Optional Add-on</p>
+                        </div>
+                        <div>
+                            <p>Optional Add-on</p>
+                        </div>
+
+                    </div>
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="optional">
+        <div id="pl2">
+            <p>FOR ANNUAL PLANS WITH 7 OR MORE USERS</p>
+            <h1>Optional addons</h1>
+        </div>
+        <div id="comparediff">
+            <div>
+                <h1>Starter</h1>
+                <button id="getbutton">Get started</button>
+            </div>
+            <div>
+                <h1>Pro</h1>
+                <button id="getbutton1">Get started</button>
+            </div>
+            <div>
+                <h1>Enterprise</h1>
+                <button id="getbutton">Get started</button>
+            </div>
+        </div>
+        <div id="comparing">
+            <div>
+                <p>Single sign on (SSO)</p>
+            </div>
+            <div>
+
+            </div>
+            <div id="prodivcomp">
+                <p>$4,800/year</p>
+            </div>
+            <div>
+                <p>$4,800/year</p>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="crowd">
+        <div id="pl3">
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3c0eef61360fcbd53350_leadiq-logo-crowd.svg" alt="">
+            <h1>Our users love us</h1>
+        </div>
+        <div id="crowddiv">
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
+                <h3>"Cold calling, here is the best tool!"</h3>
+                <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
+
+            </div>
+            <div>
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9cfbf5405ebde03392ad8_Artboard%203.webp" alt="">
+                </div>
+                <div>
+                    <h2>BDM,<span>Mulesoft</span> </h2>
+                </div>
+            </div>
+        </div>
+        <div id="crowddiv">
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
+                <h3>"Very useful for image + Outreach integration"</h3>
+                <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
+
+            </div>
+            <div>
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9d0e82e4b1edc983af1be_Artboard%202.webp" alt="">
+                </div>
+                <div>
+                    <h2>Account Executive<span>Skipp</span> </h2>
+                </div>
+            </div>
+        </div>
+        <div id="crowddiv">
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
+                <h3>"AMAZING TOOL! Highly recommend it!"</h3>
+                <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
+
+            </div>
+            <div>
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9d21afe4e5bb784aaeea8_Artboard%201.webp" alt="">
+                </div>
+                <div>
+                    <h2>CEO,<span>Creation Agency</span> </h2>
+                </div>
+            </div>
+        </div>
+        <button id="restbut">Check out the rest</button>
+    </div>
+    <div id="whatis">
+        <div>
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081a538174f4d6bc01bdd27_leadiq-logo.svg" alt="">
+        </div>
+        <div>
+            <button>Book a demo</button>
+            <button>Start free</button>
+        </div>
+    </div>
+    <div id="likehead">
+        <div>
+            <h1>Why LeadIQ</h1>
+            <p>Features</p>
+            <p>Pricing</p>
+            <p>Success Stories</p>
+        </div>
+        <div>
+            <h1>Solutions</h1>
+            <p>Sales Leaders</p>
+            <p>Revenue Ops</p>
+            <p>Sales Professionals</p>
+            <p>Eliminating Busy Work</p>
+            <p>Strategic Prospecting</p>
+            <p>Data Accuracy</p>
+        </div>
+        <div>
+            <h1>Resources</h1>
+            <p>Blog</p>
+            <p>Support</p>
+            <p>Careers</p>
+            <p>Press</p>
+            <p>Privacy Center</p>
+        </div>
+        <div>
+            <div><img src="https://assets.website-files.com/60819f9be381394642b5659e/6081c958408db1111a5f6e4b_leadiq-icon-contact-phone.svg" alt=""> 1-888-653-2347</div>
+            <div><img src="https://assets.website-files.com/60819f9be381394642b5659e/6081c9584a52ae9f54e9d71c_leadiq-icon-contact-email.svg" alt=""> support@leadiq.com</div>
+        </div>
+    </div>
+    <div id="footer">
+        <div>
+            <p>LeadIQ, Inc. All rights reserved.</p>
+        </div>
+        <div>
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Security</p>
+            <p>Do Not Sell My Personal Information</p>
+        </div>
+        <div>
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e5452d50f1f7a3fb3_leadiq-social-media-facebook.svg" alt="">
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4eee94984fa4071d52_leadiq-social-media-twitter.svg" alt="">
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e288f5700bcb39bfd_leadiq-social-media-linkedin.svg" alt="">
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e9e444d3a934f9719_leadiq-social-media-youtube.svg" alt="">
+        </div>
+    </div>
+</body>
+</html>
