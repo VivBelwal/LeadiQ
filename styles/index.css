@@ -6,49 +6,6 @@ body{
     background-color: #063C4D;
 }
 
-#navTop{
-  
-    height: 58px;
-    width: 100%;
-    background-color: #063C4D;
-  
-
-}
-#navTop>div{
-    display: flex;
-    justify-content: end;
-
-    gap: 20px;
-    margin-right: 80px;
-}
-#navTop>div>p{
-    font-size:  15px;
-    line-height: 18px;
-    color: #DAE2E3;
-}
-#navTop>div>p:hover{
-    cursor: pointer;
-}
-#navTop img{
-  width: 18px;
-  margin-left: 10px;
-}
-#navTop>div>div{
-    display: flex;
-    margin-top: 0px;
-}
-#navTop>div>div:hover{
-cursor: pointer;
-}
-#navTop span{
-    display: block;
-    font-size:  15px;
-    line-height: 18px;
-    color: #DAE2E3;
-    margin-top: 15px;
-    
-}
-
 
 
   #prosPect{
@@ -113,3 +70,25 @@ background-color: white;
     margin: auto;
     text-align: center;
   }
+
+  #saleMid{
+   height : 590px;
+width: 1225px;
+margin-top: 55px;
+border: 1px solid red;
+display: flex;
+  }
+
+  #saleMid>div{
+    height : 590px;
+    width: 430px;
+  }
+  #saleMid>div>h3{
+    height : 34pxpx;
+    width: 238px;
+    color: #063C4D;
+    font-size: 24px;
+    font-weight: 500;
+
+  }
+  
