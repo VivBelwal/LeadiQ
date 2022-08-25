@@ -28,23 +28,30 @@
 
 #details{
     display: flex;
-    gap:-10px;
-    margin-top: 5px;
+    gap : 50px;
+    margin-top: 10px;
 }
 
 #details>div{
     
-    width: 140px;
-    margin-left: -10px;
+    width: auto;
+    
     height: 18px;
-    gap: 10px;
+
+  
+}
+#details>div:first-child{
+height: 44px;
    
 }
 #details>div:nth-child(2){
     margin-left: -30px;
+   
+    height: 44px;
     }
 #details>div:nth-child(3){
 margin-left: -30px;
+height: 44px;
 }
 #details>div:nth-child(4){
     margin-left: -20px;

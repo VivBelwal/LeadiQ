@@ -1,4 +1,4 @@
- import navbar from '../components/navbar.js'
+ import {navbar,dropDown,scroll} from '../components/navbar.js'
 
  import navTop from '../components/navTop.js'
 
@@ -10,57 +10,46 @@
  
  navTopC.innerHTML=navTop();
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- document.querySelector('#details>div:nth-child(1)').addEventListener('mouseover',dropDown1);
- document.querySelector('#details>div:nth-child(2)').addEventListener('mouseover',dropDown2);
- document.querySelector('#details>div:nth-child(3)').addEventListener('mouseover',dropDown3);
-document.querySelector('#WhyLead').addEventListener('mouseout',dropOut1);
-document.querySelector('#Solutions').addEventListener('mouseout',dropOut2);
-document.querySelector('#Resources').addEventListener('mouseout',dropOut3);
+ dropDown();
 
-function dropDown1(){
-let WhyLead = document.getElementById('WhyLead');
-WhyLead.style.display='block';
+ scroll();
 
-}
-function dropDown2(){
-    let Solutions = document.getElementById('Solutions');
-    Solutions.style.display='flex';
+
+  function prosSection(){
+
+    window.addEventListener('scroll',prosSection);
+    let proDiv2 = document.querySelector('#pros>div:last-child');
+let scrollValue = window.scrollY;
+  
+    let margin = -6;
+if(scrollValue>99){
+
     
-    }
-
-    function dropDown3(){
-        let Resources = document.getElementById('Resources');
-        Resources.style.display='block';
-        
-        }
-function dropOut1(){
-    let WhyLead = document.getElementById('WhyLead');
-WhyLead.style.display='none';
+    proDiv2.style.marginTop=`${margin*scrollValue/100}px`;
+    
+} else if(scrollValue<100){
+    proDiv2.style.marginTop="0px";
+  
 }
-function dropOut2(){
-    let Solutions = document.getElementById('Solutions');
-    Solutions.style.display='none';
-}
-function dropOut3(){
-    let Resources = document.getElementById('Resources');
-    Resources.style.display='none';
-}
+  }
 
-
+  prosSection();
 
  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+

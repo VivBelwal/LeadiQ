@@ -1,4 +1,7 @@
-/* #063C4D */
+/*  #063C4D - Dark Blue
+    #fdc84d - Button color light
+    #efb735 - Button color hover
+    #576F76 - Grey font */
 
 * {
     margin: 0px;
@@ -19,6 +22,7 @@ a{
 }
 .base-btn{
     background-color: #ffd265;
+    border: none;
     
 }
 
@@ -35,6 +39,8 @@ a{
     background-color: #efb735;
     transition: 0.5s;
 }
+
+/* ========================== HEADER =========================== */
 
 header {
     background: url(https://assets.website-files.com/60819f9be381394642b5659e/609b091705fc1e7c881a4982_leadiq-features-background-2.svg),
@@ -58,9 +64,149 @@ h1{
     font-size: 60px;
     margin-bottom: 10px;
 }
-p{
+#header-para{
     color: #576F76;
     margin-bottom: 50px;
     font-size: 22px;
     line-height: 40px;
+}
+
+#divider {
+    background-color: #c3c0c0;
+    width: 95%;
+    height: 1px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+/* ========================== OUTBOUND TEAMS ========================= */
+
+#outbound-teams{
+    text-align: center;
+}
+
+#outbound-teams>h3{
+    margin-bottom: 50px;
+    font-size: 22px;
+    color: #063C4D;
+}
+
+#image-holder{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+#image-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#image-holder>img{
+    width: 120px;
+}
+
+#outbound-teams{
+    margin-bottom: 50px;
+}
+
+
+/* ====================== SERVICES SECTION ===================== */
+
+#services-section {
+    background-color: #f4fbfc;
+    padding: 140px 30px;
+    
+}
+
+.headings{
+    font-size: 35px;
+    width: 50%;
+    margin: auto;
+    line-height: 50px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#features-and-image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    margin: auto;
+    align-items: center;
+}
+
+#feat-image>img{
+    width: 100%;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 80%;
+}
+
+.feature-content-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.feature-content-wrapper>div{
+    display: flex;
+    gap: 10px;
+}
+.feature-content-wrapper>div>h3{
+    font-size: 24px;
+    color: #222222;
+}
+
+/* ====================== WORKFLOW SECTION ===================== */
+
+#workflow-section{
+    margin-top: 120px;
+    width: 95%;
+    margin: auto;
+}
+
+.card-description{
+    color: #576F76;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#card-wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.cards{
+    width: 30%;
+    border: 1px solid #dcdcdc;
+    border-radius: 30px;
+    padding: 55px 40px 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cards>h3{
+    margin-bottom: 20px;
+}
+
+.image-holder{
+    border-radius: 50%;
+    margin-right: 200px;
+    margin-bottom: 40px;
+    height: auto;
+    background-color: #dcf8ee;
+    padding: 20px 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#image-holder{
+    background-color: #fff3d6
 }
