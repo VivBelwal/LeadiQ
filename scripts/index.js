@@ -61,31 +61,6 @@ function dropOut3(){
     Resources.style.display='none';
 }
 
-window.addEventListener('scroll',changeColor);
 
-function changeColor(){
-    let nav = document.getElementById('nav');
-    let scrollValue = window.scrollY;
-    
-    if(scrollValue>150){
-        nav.style.backgroundColor="White";
-        nav.style.color="#063C4D"
-    } else if(scrollValue<150){
-        nav.style.backgroundColor="#063C4D";
-        nav.style.color="#DAE2E3"
-    }
-}
 
-  document.getElementById("log").addEventListener("click",logbtn)
-
-    function logbtn(){
-        window.location.href="login.html"
-    }
-
- let obj = JSON.parse(localStorage.getItem("objimg"));
-
-  if(obj!==""){
-    document.getElementById("imgg").src = obj.img
-    document.getElementById("log").innerHTML=null;
-
-  }
+ 
