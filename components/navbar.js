@@ -85,7 +85,69 @@ function navbar(){
     </div>`
 }
 
-export default navbar
+function dropDown(){
+  document.querySelector('#details>div:nth-child(1)').addEventListener('mouseover',dropDown1);
+
+document.querySelector('#details>div:nth-child(1)').addEventListener('mouseout',dropOut1);
+
+document.querySelector('#details>div:nth-child(2)').addEventListener('mouseover',dropDown2);
+
+document.querySelector('#details>div:nth-child(3)').addEventListener('mouseover',dropDown3);
+
+document.querySelector('#details>div:nth-child(2)').addEventListener('mouseout',dropOut2);
+document.querySelector('#details>div:nth-child(3)').addEventListener('mouseout',dropOut3);
+
+function dropDown1(){
+let WhyLead = document.getElementById('WhyLead');
+WhyLead.style.display='block';
+
+}
+
+
+function dropDown2(){
+    let Solutions = document.getElementById('Solutions');
+    Solutions.style.display='flex';
+    
+    }
+
+    function dropDown3(){
+        let Resources = document.getElementById('Resources');
+        Resources.style.display='block';
+        
+        }
+function dropOut1(){
+    let WhyLead = document.getElementById('WhyLead');
+WhyLead.style.display='none';
+}
+function dropOut2(){
+    let Solutions = document.getElementById('Solutions');
+    Solutions.style.display='none';
+}
+function dropOut3(){
+    let Resources = document.getElementById('Resources');
+    Resources.style.display='none';
+}
+}
+
+function scroll(){
+  window.addEventListener('scroll',changeColor);
+
+function changeColor(){
+    let nav = document.getElementById('nav');
+    let scrollValue = window.scrollY;
+    
+    if(scrollValue>150){
+        nav.style.backgroundColor="White";
+        nav.style.color="#063C4D";
+        nav.style.transition="0.5s"
+    } else if(scrollValue<150){
+        nav.style.backgroundColor="#063C4D";
+        nav.style.color="#DAE2E3"
+    }
+}
+}
+
+export {navbar,dropDown,scroll}
 
 
 
