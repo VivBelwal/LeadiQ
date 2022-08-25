@@ -40,22 +40,33 @@ let signup = ()=>{
  let pass2 = document.getElementById("text1").value;
 
  if(pass1.length > 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
-         
+    document.getElementById("special").style.display = 'none'
+    document.getElementById("min").style.display = 'none'
+
+
+   
+   
       
  }else{
      document.getElementById("special").style.display = 'block'
-     document.getElementById("min").style.display = 'block'
+     document.getElementById("min").style.display =   'block'
  }
- if(pass1 === pass2){
-     obj.password = pass1;
-     arr.push(obj);
-    
-     localStorage.setItem("signupData",JSON.stringify(arr));
-        window.location.href = "login.html"
 
- }else{
-     document.getElementById("match").style.display = 'block'
- }
-  
+ if(pass1.length > 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
+    document.getElementById("special").style.display = 'none'
+    document.getElementById("min").style.display = 'none'
+
+ if(pass1 === pass2){
+    obj.password = pass1;
+    arr.push(obj);
+   
+    localStorage.setItem("signupData",JSON.stringify(arr));
+       window.location.href = "login.html"
+
+}else{
+    document.getElementById("match").style.display = 'block'
+}
+}
+
 }
 

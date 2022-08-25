@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+   
+    
+        <div  id="image">
+    
+            <img src="https://account.leadiq.com/signup/assets/leadiq-logo.be12fcc3.svg" alt="">
+           <button id="loginn" onclick="loginn()">Login</button>
+           
+        </div>
+        <div id="main2">
+           <h1>Reset password</h1>
+           <p>Please enter your email address and we'll send you a link to reset your password.</p>
+
+            <input type="email" name="" id="email" placeholder="Enter your email">
+             <p id="invalid">please enter valide email.</p>
+              <button id="login" onclick="login()">Reset password</button>
+        </div>
+
+       
+</body>
+</html>
+
+
+ <script>
+    function loginn(){
+        window.location.href="login.html"
+    }
+   let arr = JSON.parse(localStorage.getItem("signupData"))
+  function login(){
+    let present = 0;
+    let value = document.getElementById("email").value
+      
+      arr.forEach(function(el){
+        if(el.email == value){
+            present = 1
+        }
+      })
+       if(present == 1){
+           let obj1 ={
+             reset:value
+           }
+           localStorage.setItem("reset",JSON.stringify(obj1))
+            window.location.href="resetPass.html"
+       }else{
+           document.getElementById("invalid").style.display="block"
+       } 
+  }  
+ </script>
