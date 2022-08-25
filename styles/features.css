@@ -14,7 +14,7 @@
 /* ======================= Buttons ======================= */
 a{
     text-decoration: none;
-    color: #000;
+    color: #063C4D;
     padding: 20px 35px;
     border-radius: 30px;
     font-size: 18px;
@@ -27,7 +27,10 @@ a{
 }
 
 .ghost-btn{
-    border: .2px solid rgb(215, 215, 215);  
+    border: .2px solid rgb(215, 215, 215); 
+    background-color: #fff;
+    color: #063C4D;
+
 }
 
 .ghost-btn:hover{
@@ -38,6 +41,34 @@ a{
 .base-btn:hover{
     background-color: #efb735;
     transition: 0.5s;
+}
+
+/* ========================== DECORATIVE BACKGROUND &HOVERING BOX =========================== */
+
+.decorative-background{
+    margin-top: 120px;
+    background-color: #dcf8ee8d;
+    padding: 150px 0px;
+    /* display: flex; */
+    background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b810fbae85943d9fd9c7_leadiq-background-testimonial-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081b80de8f2326eb44d6bf5_leadiq-background-testimonial-1.svg);
+    background-repeat: no-repeat;
+    background-position: -5% 30%, 105% 60%;
+    
+}
+
+.hovering-box{
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 50px;
+    border-radius: 50px;
+    border: 1px solid #e6fff6;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
 }
 
 /* ========================== HEADER =========================== */
@@ -167,10 +198,12 @@ h1{
 
 /* ====================== WORKFLOW SECTION ===================== */
 
-#workflow-section{
+
+.cards-container{
     margin-top: 120px;
     width: 95%;
     margin: auto;
+    margin-bottom: 150px;
 }
 
 .card-description{
@@ -201,12 +234,13 @@ h1{
     margin-right: 200px;
     margin-bottom: 40px;
     height: auto;
-    background-color: #dcf8ee;
+    background-color: #e6fff6;
     padding: 20px 55px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-#image-holder{
+#image-wrapper{
     background-color: #fff3d6
 }
+
