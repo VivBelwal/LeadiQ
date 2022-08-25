@@ -1,0 +1,133 @@
+
+#image{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 40px;
+}
+#signup,#loginn{
+    width: auto;
+    background-color:#374c7a;
+    margin: 0px 15px;
+    padding: 15px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+   color: #FFFFFF;
+   font-size: 16px;
+   display: inline-block;
+   border: 0;
+}
+#signup:hover,#loginn:hover{
+ 
+    
+   margin-top: 10px;
+    transition: 1.5s;
+}
+#main1 :nth-child(1){
+    height: 60px;
+    width: 60px;
+    display: block;
+    margin: auto;
+}
+#img{
+height: 46px;
+display: block;
+margin: auto;
+}
+#main1{
+
+width: 400px;
+margin: auto;
+margin-top: 100px;
+box-shadow: rgba(146, 76, 76, 0.2) 0px 8px 24px;
+padding:100px 120px;
+font-size: 20px;
+color: rgb(85, 74, 74);
+
+border-radius: 30px;
+}
+#email{
+width: 100%;
+padding: 13px 0;
+
+
+}
+#password{
+width:100%;
+padding: 13px 0;
+margin-bottom:70px ;
+}
+#login{
+ width: 100%;
+ height: 70px;
+ border-radius: 8px;
+ background-color: #374c7a;
+ color: #FFFFFF;
+   font-size: 18PX;
+   display: inline-block;
+   border: 0;
+ 
+}
+#invalid{
+text-align: center;
+ color: red;
+ display: none;
+
+
+}
+#lock{
+display: flex;
+margin-top:  30px;
+gap: 30px;
+}
+
+#last .lock{
+width: 20px;
+height: 20px;
+
+}
+#last{
+display: flex;
+gap: 5px;
+}
+a{
+text-decoration: none;
+color: rgb(51, 59, 51);
+}
+a:hover{
+text-decoration: underline;
+}
+body{
+    background-image: url(https://account.leadiq.com/signup/assets/bg-top.ed99a986.svg);
+}
+
+    #main2{
+    text-align: center;
+        width: 400px;
+        margin: auto;
+        margin-top: 100px;
+        box-shadow: rgba(146, 76, 76, 0.2) 0px 8px 24px;
+        padding: 30px 120px;
+        font-size: 20p;
+        color: rgb(10, 10, 10);
+        
+          border-top-right-radius: 20px;
+          border-top-left-radius: 20px;
+        }
+        #main2 > p{
+            font-size: 20px;
+            color: gray;
+        }
+        #main2 > #invalid{
+            color: red;
+        }
+  
+        #main2 > #email{
+             margin-bottom: 30px;
+        }
+        #main1 > #email{
+             padding: 16px 0;
+        }
+
+         

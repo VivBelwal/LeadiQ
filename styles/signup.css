@@ -7,6 +7,8 @@
               width: 450px;
               margin: auto;
               padding: 30px;
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
               font-family: "Roboto Regular",sans-serif;
         }
         #main > h1{
@@ -118,4 +120,8 @@
     #match{
       color:rgb(237, 105, 105);
       display:none
+    }
+    #submit{
+      padding: 20px;
+      font-size: 20px;
     }
