@@ -15,18 +15,23 @@ body{
   #prosPect{
     width: 100%;
     display: flex;
-    
+    box-sizing: border-box;
    
     margin-top: 160px;
     justify-content: space-around;
-    gap: 80px;
-    overflow: hidden;
+    gap: 6%;
+    border: 1px solid #063C4D;
+    
   }
   #prosPect>div:first-child{
     width: 495px;
     height: 526px;
    color: white;
-   margin-left: 40px;
+   margin-left:50px;
+   border: 1px solid red;
+   position: relative;
+   top: 0px;
+   left: 56px;
   }
   #prosPect>div:first-child>h1{
 
@@ -106,18 +111,18 @@ body{
     background: url(https://assets.website-files.com/60819f9be381394642b5659e/628e636de30eb30ee9fe126f_leadiq-background-hero-dark.svg);
     background-repeat: no-repeat;
     background-position: 100%;
-    height: 95vh;
-    
+    height: 95vh; 
+     
     margin-left: 40px;
     margin-top: -5px;
   }
 
   #pros>div:first-child{
     position: absolute;
-    width:315px ;
+    width:24% ;
     height: 521px;
     margin-top: -5px;
-    right: 400px;
+    right: 29%;
     
     z-index: 2;
   }
@@ -135,6 +140,8 @@ body{
     width: 100%;
   }
 
+  /* ==========SALES SECTION=============== */
+
   #salesSection{
 
     height: 800.203px;
@@ -142,8 +149,8 @@ width: 99.8%;
 padding: 140px 0px;
 background: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b42dfc784618c92acce7_leadiq-activities-background-2.svg);
 background-repeat: no-repeat;
-height: 90vh;
-background-position: 98%;
+
+background-position: 98% 37%;
 background-color: #F4FBFC;
 margin: auto;
 
@@ -215,12 +222,7 @@ gap: 50px;
    
 padding: 11px;
   }
-  /* border: 1px solid #DAE2E3; */
-  /* #saleMid>div>div:nth-child(1)>p{
-    
-    border: 1px solid blue;
-padding: 11px;
-  } */
+  
 
   #leadAllow>div:last-child{
     padding: 20px 40px;
@@ -241,18 +243,21 @@ padding: 11px;
       cursor: pointer;
   }
   #back2{
-    height: 593.297px;
-width: 715.625px;
+    
+width: 715px;
 
 position: relative;
 top: -40px;
 left: 25px;
 
 background:  url(https://assets.website-files.com/60819f9be381394642b5659e/6081b42d78a93f84724ea09f_leadiq-activities-background-1.svg);
-background-repeat: no-repeat;
-height: 145vh;
-background-position: 6.5%;
+background-repeat: no-repeat ;
+
+background-position: 6.5% 93%;
+height: auto;
+border: 1px solid red;
   }
+
   #back2>img{
     width: 100%;
 
@@ -265,6 +270,8 @@ background-position: 6.5%;
     grid-template-columns: repeat(2,1fr);
 
   }
+
+  /* =========LOCATING  CONTACT DATA=======  */
 
   #contant{
     width: 80%;
