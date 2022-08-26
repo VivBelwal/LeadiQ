@@ -35,9 +35,26 @@ if(scrollValue>99){
 
   prosSection();
 
+  
+  let zoomClari =()=>{
+    let walkmeLogo =document.getElementById('walkme-logo')
+    let clariLogo = document.querySelector('#walkme-logo>img');
+    clariLogo.style.width="120%";
+    walkmeLogo.style.overflow="hidden"
+    
+}
+
+let zoutClari =()=>{
+    let clariLogo = document.querySelector('#walkme-logo>img');
+    clariLogo.style.width="100%";
+
+    
+}
  
+ document.getElementById("walkme-image").addEventListener("mouseover",zoomClari)
+ document.getElementById("walkme-image").addEventListener("mouseout",zoutClari)
  
- 
+
  
  
  
