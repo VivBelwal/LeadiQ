@@ -14,7 +14,7 @@
 /* ======================= Buttons ======================= */
 a{
     text-decoration: none;
-    color: #000;
+    color: #063C4D;
     padding: 20px 35px;
     border-radius: 30px;
     font-size: 18px;
@@ -27,7 +27,8 @@ a{
 }
 
 .ghost-btn{
-    border: .2px solid rgb(215, 215, 215);  
+    border: .2px solid rgb(215, 215, 215); 
+    color: #063C4D; 
 }
 
 .ghost-btn:hover{
@@ -39,13 +40,23 @@ a{
     background-color: #efb735;
     transition: 0.5s;
 }
+#ghost-banner-btn, #ghost-baner-btn{
+    color: #fff;
+}
+
+#ghost-banner-btn:hover{
+    color: #063C4D;
+}
+#ghost-baner-btn:hover{
+    color: #063C4D;
+}
 
 /* ========================== DECORATIVE BACKGROUND =========================== */
 
 .decorative-background{
-    margin-top: 120px;
+    margin-top: 50px;
     background-color: #dcf8ee8d;
-    padding: 150px 0px;
+    padding: 100px 0px;
     background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b810fbae85943d9fd9c7_leadiq-background-testimonial-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081b80de8f2326eb44d6bf5_leadiq-background-testimonial-1.svg);
     background-repeat: no-repeat;
     background-position: -5% 30%, 105% 60%
@@ -166,7 +177,7 @@ h1{
 .feature-content-wrapper{
     display: flex;
     justify-content: space-between;
-
+    flex-wrap: wrap;
 }
 
 .feature-content-wrapper>div{
@@ -184,6 +195,7 @@ h1{
     width: 95%;
     margin: auto;
     margin-top: 120px;
+    margin-bottom: 100px;
 }
 
 .card-description{
@@ -226,6 +238,10 @@ h1{
 
 /* ====================== DIRECTOR MESSAGE SECTION ===================== */
 
+
+#director-bg{
+    background-position: -5% 50%, 105% 80%;
+}
 #hovering-box{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -235,29 +251,23 @@ h1{
     border: 1px solid #c3c0c0;
     border-radius: 30px;
     padding: 80px 50px;
-    gap: 60px;
+    gap: 30px;
     background-color: #fff;
 }
 
 #image-wrap{
     text-align: center;
     background-color: #dcf8eec2;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 30px;
     padding: 20px 40px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
-#message-wrapper{
-    border: 1px solid red;
+#message-wrapper>img{
     width: 100%;
 }
 
-#image-wrap>img{
-    width: 100%;
-}
-
-.message>h3{
+#message>h3{
     margin: 30px 0px;
     font-size: 23px;
     font-weight: 600;
@@ -265,7 +275,7 @@ h1{
     line-height: 40px;
 }
 
-.signature{
+#signature{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -275,11 +285,13 @@ h1{
     width:80px;
 }
 .designation{
-    font-size: 20px;
+    font-size: 22px;
+    color: #063C4D;
 }
 .designation>p{
     font-weight: bold;
     color: #576F76;
+    font-size: 20px;
 }
 .green-font{
     color: #00d586;
@@ -290,8 +302,12 @@ h1{
 /* ====================== DETAILED FEATURES SECTION ===================== */
 
 #detailed-feature{
+    width: 95%;
+    margin: auto;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
+
 #detailed-feature>div{
     display: grid;
     gap: 30px;
@@ -334,7 +350,7 @@ h1{
 
 /* ====================== BANNER ===================== */
 
-#page-banner{
+.page-banner{
 
     display: flex;
     background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c44063e24051a3c11e4d_leadiq-leader-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c4401f9db9638f7e83ed_leadiq-leader-background-1.svg);
@@ -346,25 +362,30 @@ h1{
     align-items: center;
 }
 
-#page-banner>div{
+.page-banner>div{
     text-align: center;
     width: 50%;
     margin: auto;
 }
-#page-banner>div>h2{
+.page-banner>div>h2{
     font-size: 35px;
     color: #fff;
     margin-bottom: 60px;
     line-height: 60px;
 }
 
+#banner2{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
 /* ====================== MANAGER MESSAGE SECTION ===================== */
 
 #manager-message-box{
-    width: 80%;
-}
-#manager-box{
     width: 100%;
+    background-color: #e9fff9;
+    text-align: center;
+    border-radius: 30px;
+    padding: 20px;
 }
 .button-holder{
     text-align: center;
@@ -390,14 +411,21 @@ h1{
 #message-wrap{
     width: 130%;
 }
-
+#manager-box{
+    margin: 30px 0px;
+    font-size: 20px;
+    font-weight: 600;
+    word-spacing: 1px;
+    line-height: 40px;
+    color: #063C4D;
+}
 
 
 /* ====================== TOOL SECTION ===================== */
 
 #tool-section{
     background-color: #e6fff6;
-    padding-bottom: 150px;
+    padding: 100px 0px 150px 0px;
 }
 
 #heading-sec>p{
@@ -474,7 +502,7 @@ h1{
     font-size: 40px;
     line-height: 60px;
     margin-bottom: 20px;
-    
+    color: #063C4D;
 }
 #description-sec{
     padding-left: 30px;
@@ -505,6 +533,8 @@ h1{
     font-size: 22px;
     color: #063C4D;
     line-height: 40px;
+    margin-bottom: 30px;
+    width: 92%;
 }
 #name>p{
     font-size: 18px;
@@ -550,3 +580,20 @@ h1{
     padding: 8px;
     font-size: 18px;
 }
+
+
+/* ====================== BOOK DEMO SECTION ===================== */
+
+#book-demo-sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+#button-demo>a{
+    position: relative;
+    top: -40px;
+}
+
