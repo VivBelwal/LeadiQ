@@ -52,7 +52,7 @@ let signup = ()=>{
      document.getElementById("min").style.display =   'block'
  }
 
- if(pass1.length > 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
+ if(pass1.length >= 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
     document.getElementById("special").style.display = 'none'
     document.getElementById("min").style.display = 'none'
 
