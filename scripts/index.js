@@ -1,6 +1,6 @@
- import {navbar,dropDown,scroll} from '../../../Unit-3 Project/silent-toes-7433/components/navbar.js'
+ import {navbar,dropDown,scroll} from '../components/navbar.js'
 
- import navTop from '../../../Unit-3 Project/silent-toes-7433/components/navTop.js'
+ import navTop from '../components/navTop.js'
 
  let navContainer = document.getElementById('navContainer')
  
