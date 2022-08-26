@@ -61,7 +61,7 @@ let submit = ()=>{
  let pass1 = document.getElementById("text").value;
  let pass2 = document.getElementById("text1").value;
 
- if(pass1.length > 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
+ if(pass1.length >= 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
     document.getElementById("special").style.display = 'none'
     document.getElementById("min").style.display = 'none'
 
