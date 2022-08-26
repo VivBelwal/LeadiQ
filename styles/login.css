@@ -41,21 +41,25 @@ width: 400px;
 margin: auto;
 margin-top: 100px;
 box-shadow: rgba(146, 76, 76, 0.2) 0px 8px 24px;
-padding:100px 120px;
+padding:50px 80px;
 font-size: 20px;
 color: rgb(85, 74, 74);
+background-color: white;
 
 border-radius: 30px;
 }
 #email{
 width: 100%;
-padding: 13px 0;
+padding: 10px 0;
+height: 10px;
 
 
 }
+
 #password{
 width:100%;
-padding: 13px 0;
+padding: 10px 0;
+height: 22px;
 margin-bottom:70px ;
 }
 #login{
@@ -131,3 +135,22 @@ body{
         }
 
          
+#flex{
+    width: 300px;
+    display: flex;
+    gap: 140px;
+} 
+
+#flex>.im1 >img{
+    /* width: 100px; */
+    margin-right: 60px;
+    /*  */
+}
+#flex>.im2 >img{
+    /* width: 100px; */
+    margin-right: 40px;
+    /* margin-left: 30px; */
+    
+}
+
+  
