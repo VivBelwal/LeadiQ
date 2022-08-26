@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     font-family: 'Circular Std', sans-serif;
     background-color: #063C4D;
+    box-sizing: border-box;
 }
 
 /* Prospect Section */
@@ -257,4 +258,216 @@ background-position: 6.5%;
 
   #locatingContact{
     width:100% ;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
   }
+
+  #contant{
+    width: 80%;
+    margin-top: 200px;
+    margin-left: 70px;
+    margin-bottom: 160px;
+  }
+ /* head */
+  #contant>div:first-child{
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 54px;
+    width: 100%;
+    color: white;
+  }
+  /* mid */
+  #contant>div:nth-child(2){
+    font-size: 18px;
+    color: #DAE2E3;
+    line-height: 30px;
+    width: 60%;
+    margin-bottom: 40px;
+  }
+/* Buttons  */
+  #contant>div:last-child{
+    display: flex;
+    gap: 20px;
+  }
+  #contant>div:last-child>a{
+      text-decoration: none;
+      color: #063C4D;
+      padding: 20px 35px;
+      font-size: 18px;
+      border-radius: 30px;
+  }
+  .base-btn{
+    background-color: #ffd265;
+    border: none;
+  }
+  .ghost-btn{
+    border: .2px solid rgb(215,215,215);
+    background-color: white;
+  }
+
+  .base-btn:hover{
+    background-color: #efb735;
+    transition: 0.5s;
+  }
+  .ghost-btn:hover{
+    background-color: #fdc84d;
+    transition: 0.5s;
+  }
+
+  /* Ice Burg */
+  #iceBurg{
+    position: absolute;
+    margin-top: 95px;
+    left: 48%;
+  }
+
+  /* Lead Resource */
+
+  #parentResourceDiv{
+    width: 100%;
+    background-color: white;
+    border: 1px solid red;
+    
+  }
+
+  #leadResource{
+    width: 90%;
+    margin-left: 38px;
+    margin-right: 38px;
+    border: 1px solid red;
+    margin-top: 130px;
+    margin-bottom: 60px;
+  }
+
+  /* lead resource heading */
+
+  #leadResource>h2{
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 54px;
+        width: 100%;
+        margin-bottom: 10px;
+        color: #063C4D;
+        text-align: center;
+  }
+
+  #leadResource>div{
+    margin-top: 40px;
+  }
+  #leadResource>div:last-child{
+    margin-bottom: 60px;
+  }
+  #leadResource>div>img{
+    width: 100%;
+  }
+
+  #industryLeader{
+    background: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c44063e24051a3c11e4d_leadiq-leader-background-2.svg),
+     url(https://assets.website-files.com/60819f9be381394642b5659e/6081c4401f9db9638f7e83ed_leadiq-leader-background-1.svg);
+ 
+    background-position: 0%,100%,0px,0px;
+    background-position-y: top,bottom;
+    background-repeat: no-repeat,no-repeat;
+    border:1px solid red;
+    width: 100%;
+    
+    background-color: #083341;
+    }
+
+    #industryLeader>div{
+      width: 62%;
+      margin: auto;
+      margin-top: 100px;
+    
+      text-align: center;
+      margin-bottom: 130px;
+    }
+    
+#industryLeader>div>h2{
+   font-size: 38px;
+   font-weight: 500;
+   line-height: 54px;
+   color: white;
+   margin-bottom: 10px;
+ width: 100%;
+}
+#industryLeader>div>div{
+ width: 100%;
+ margin-top: 30px;
+ display: grid;
+ grid-template-columns: repeat(5,17%);
+ column-gap: 3%;
+}
+
+#industryLeader>div>div>div>img{
+  width: 100%;
+}
+/* Start Footer */
+#footerParent{
+  width: 100%;
+  border: 1px solid red;
+  background-color: white;
+}
+
+#footerContainer{
+  width: 91%;
+  margin: auto;
+  margin-top: 70px;
+}
+/* Top footer */
+#footerContainer>div:first-child{
+  display: grid;
+  grid-template-columns: repeat(2,48%);
+  column-gap: 4%;
+  height: auto;
+}
+/* top footer book demo button */
+#footerContainer>div:first-child>div:last-child>a:first-child{
+  margin-left: 240px;
+}
+/* top footer two buttons */
+#footerContainer>div:first-child a{
+  text-decoration: none;
+  color: #063C4D;
+  padding: 20px 35px;
+  font-size: 18px;
+  border-radius: 30px;
+
+}
+
+/* top footer end */
+
+/* first divider section */
+
+.divider{
+ width: 100%;
+ 
+ border: 1px solid #DAE2E3;
+ margin-top: 100px;
+}
+/* Footer mid grid section */
+
+#midFooter{
+
+  width: 100%;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: 19% 37% 12.5% 25%;
+  column-gap: 2%;
+}
+
+/* footer mid whyLead section */
+
+
+
+
+
+
+
+
+
+
+
