@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./components/navTop.css">
+    <link rel="stylesheet" href="./components/navbar.css">
     <link rel="stylesheet" href="./styles/features.css">
+
     <title>LeadIQ | Features</title>
 </head>
 <body>
+    <nav>
+        <!-- Nav Top  -->
+        <div id="navTop"></div>
+
+        <!-- NavBar -->
+        <div id="navContainer"></div>
+ 
+
+   <!-- NavBar ended -->
+    </nav>
     <header>
         <div id="head-container">
             <h1>Features</h1>
@@ -55,6 +68,7 @@
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0bcc6d8f484d1c4c0eb7_leadiq-arrow-tab.svg" alt="See more" class="feature-section-arrow">
                     
                 </div>
+                <p></p>
                 <div class="feature-content-wrapper">
                     <div>
                         <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0b8b4c2ceea76bbf3e4a_leadiq-icon-analytics.svg" alt="Icon">
@@ -63,6 +77,7 @@
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0bcc6d8f484d1c4c0eb7_leadiq-arrow-tab.svg" alt="See more" class="feature-section-arrow">
                     
                 </div>
+                <p></p>
                 <div class="feature-content-wrapper">
                     <div>
                         <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0b8bbff4f5eed15ffba5_leadiq-icon-enterprise.svg" alt="Icon">
@@ -71,6 +86,7 @@
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0bcc6d8f484d1c4c0eb7_leadiq-arrow-tab.svg" alt="See more" class="feature-section-arrow">
                     
                 </div>
+                <p></p>
                 <div class="feature-content-wrapper">
                     <div>
                         <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0b8beb62062f0a26cd77_leadiq-icon-prospecting.svg" alt="Icon">
@@ -79,6 +95,7 @@
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0bcc6d8f484d1c4c0eb7_leadiq-arrow-tab.svg" alt="See more" class="feature-section-arrow">
                     
                 </div>
+                <p></p>
             </div>
             <div id="feat-image">
                 <img src="https://assets.website-files.com/60819f9be381394642b5659e/61681ecf66af3cd63eff920c_Prospector%20%2B%20Integrations.webp" alt="Image">
@@ -114,7 +131,7 @@
         </div>
     </div>
     
-    <div class="decorative-background">
+    <div class="decorative-background" id="director-bg">
         <div id="hovering-box">
             <div id="image-wrap">
                 <img src="https://assets.website-files.com/60819f9be381394642b5659e/61682a2f2c0e6a07186d4d6d_LeadIQ-Integrations-Iterable-Quote.svg" alt="">
@@ -128,7 +145,7 @@
                     <div id="avatar">
                         <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b193c428f097cbf5483a6_leadiq-iterable-quote-avatar-david.jpg" alt="">
                     </div>
-                    <div id="designation">
+                    <div class="designation">
                         <h3>David Zerwin</h3>
                         <p>Sr. Director Sales Operations, <span id="green-font">Iterable</span></p>
                     </div>
@@ -143,20 +160,20 @@
         <h2 class="headings">Detailed LeadIQ features</h2>
     </div>
 
-    <div id="page-banner">
-        <div id="content holder">
+    <div class="page-banner">
+        <div class="content holder">
             <h2>
                 Your outbound teams will save so much time. Seriously.
             </h2>
             <a href="#" class="base-btn">Book a demo</a>
-            <a href="#" class="ghost-btn">Start free</a>
+            <a href="#" class="ghost-btn" id="ghost-baner-btn">Start free</a>
         </div>
     </div>
 
 
     <div class="decorative-background" id="manager-message">
         <div class="hovering-box" id="hovering-message-director">
-            <div class="hovering-message-box-image" id="manager-message-box">
+            <div id="manager-message-box">
                 <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b20aed7fed417cc9c6c0d_leadiq-walkme-featured-image.svg" alt="">
             </div>
             <div id="message-wrap">
@@ -259,7 +276,7 @@
                 </div>
                 <div id="about-walkme">
                     <h2>
-                            LeadIQ Helps WalkMe’s Enterprise Outbound Team Save 1,000 Hours a Quarter.
+                        LeadIQ Helps WalkMe’s Enterprise Outbound Team Save 1,000 Hours a Quarter.
                     </h2>
                     <p>WalkMe’s Digital Adoption Platform is a code-free software platform that enables organizations to measure, drive...</p>
                     <div id="green-div">
@@ -271,11 +288,24 @@
         
     </div>
 
-    <div id="page-banner">
-        <div id="content holder">
+    <div class="page-banner" id="banner2">
+        <div class="content holder">
             <h2>
                 Your outbound teams will save so much time. Seriously.
             </h2>
+            <a href="#" class="base-btn">Book a demo</a>
+            <a href="#" class="ghost-btn" id="ghost-banner-btn">Start free</a>
+        </div>
+    </div>
+
+    <div id="book-demo-sec">
+        <div>
+            <a href="./index.html">
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081a538174f4d6bc01bdd27_leadiq-logo.svg" alt="">
+            </a>
+        </div>
+
+        <div class="button-holder" id="button-demo">
             <a href="#" class="base-btn">Book a demo</a>
             <a href="#" class="ghost-btn">Start free</a>
         </div>
@@ -283,3 +313,16 @@
 
 </body>
 </html>
+<script src="./scripts/features.js"></script>
+<script type="module">
+    import navTop from "./components/navTop.js"
+    let navTopData = navTop();
+    let navTopContainer = document.getElementById("navTop");
+    navTopContainer.innerHTML = navTopData;
+    import {navbar,dropDown,scroll} from "./components/navbar.js"
+    let nav = navbar();
+    console.log(nav)
+    let navContainer = document.getElementById("navContainer");
+    navContainer.innerHTML = (nav);
+    
+</script>
