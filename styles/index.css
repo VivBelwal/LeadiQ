@@ -6,8 +6,10 @@ body{
     background-color: #063C4D;
 }
 
+/* Prospect Section */
 
 
+/* Prospect Div */
   #prosPect{
     width: 100%;
     display: flex;
@@ -64,6 +66,11 @@ body{
   background-color: #ffd265;
   font-size: 18px;
 
+  }
+
+  #inputWork>a:hover{
+    background-color: #efb735;
+    
   }
 
   #inputWork+p{
@@ -246,4 +253,8 @@ background-position: 6.5%;
   #back2>img{
     width: 100%;
 
+  }
+
+  #locatingContact{
+    width:100% ;
   }
