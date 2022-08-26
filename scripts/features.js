@@ -1,3 +1,18 @@
+import {navbar,dropDown,scroll} from '../components/navbar.js'
+
+import navTop from '../components/navTop.js'
+
+let navContainer = document.getElementById('navContainer')
+
+navContainer.innerHTML=navbar();
+
+let navTopC = document.getElementById('navTop')
+
+navTopC.innerHTML=navTop();
+
+dropDown();
+
+// scroll();
 
 // Detailed features section
 
@@ -108,5 +123,83 @@ let appendDetailedFeature = (data) => {
 
     })
 }
-
 appendDetailedFeature(detailedFeaturesData);
+
+
+// ============== FEATURES SECTION ===============
+
+
+
+let count = 0;
+function showPara(hiddenP, img, number){
+    count++
+    if(count%2!=0){
+        hiddenP.style.display="block"
+        hiddenP.style.transition="0.5"
+    } else {
+        hiddenP.style.display="none"
+        hiddenP.style.transition="0.5"
+    }
+   console.log("sdg")
+
+   img.innerHTML = number;
+
+}
+let featuredImage = document.getElementById("feat-image");
+let showPara1 = document.getElementById("showPara1");
+let hiddenP1 = document.getElementById("hidden-para1")
+console.log()
+showPara1.addEventListener("click", ()=>{
+    let img1 = `<img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0f20703803f48eb70170_leadiq-tabs-prospecting.webp" alt="Image">`;
+    showPara(hiddenP1,featuredImage,img1);
+});
+
+let showPara2 = document.getElementById("showPara2");
+let hiddenP2 = document.getElementById("hidden-para2")
+console.log()
+showPara2.addEventListener("click", ()=>{
+    let img2 = `<img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0ee0d7fed4bd1d9c2514_leadiq-tabs-analytics.svg" alt="Image">`
+    showPara(hiddenP2, featuredImage,img2);
+});
+
+let showPara3 = document.getElementById("showPara3");
+let hiddenP3 = document.getElementById("hidden-para3")
+console.log()
+showPara3.addEventListener("click", ()=>{
+    let img3 = `<img src="https://assets.website-files.com/60819f9be381394642b5659e/61681cd239434d5940998d51_Governance.webp" alt="Image">`
+    showPara(hiddenP3, featuredImage,img3);
+});
+
+let showPara4 = document.getElementById("showPara4");
+let hiddenP4 = document.getElementById("hidden-para4")
+console.log()
+showPara4.addEventListener("click", ()=>{
+    let img4 = `<img src="https://assets.website-files.com/60819f9be381394642b5659e/61681ecf66af3cd63eff920c_Prospector%20%2B%20Integrations.webp" alt="Image">`
+    showPara(hiddenP4, featuredImage, img4);
+});
+
+
+
+
+// ============== WALKME IMAGE SECTION ===============
+
+
+let walkmeImage = document.getElementById("walkme-img");
+let walkmeContainer = document.getElementById("walkme-container");
+
+
+
+let hoverEffect = (event) => {
+    walkmeImage.style.width="530px";
+    walkmeImage.style.transition="0.5s";
+    // walkmeImage.style.overflow="hidden"
+}
+
+let removeEffect = (event) => {
+    walkmeImage.style.width="500px";
+    walkmeImage.style.transition="0.5s";
+
+}
+
+walkmeContainer.addEventListener("mouseover", hoverEffect);
+walkmeContainer.addEventListener("mouseout", removeEffect);

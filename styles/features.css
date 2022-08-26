@@ -8,6 +8,8 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+    color: #063C4D;
+    
 
 }
 
@@ -143,6 +145,9 @@ h1{
     padding: 140px 30px;
     
 }
+#hidden-para1,#hidden-para2,#hidden-para3,#hidden-para4{
+    display: none;
+}
 
 .headings{
     font-size: 35px;
@@ -163,6 +168,10 @@ h1{
     align-items: center;
 }
 
+#feat-image{
+    height: 100%;
+}
+
 #feat-image>img{
     width: 100%;
 }
@@ -170,7 +179,7 @@ h1{
 #features{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 40px;
     width: 80%;
 }
 
@@ -178,6 +187,14 @@ h1{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: #fff;
+    padding: 30px 10px;
+}
+.feature-content-wrapper+p{
+    background-color: #fff;
+}
+.feature-content-wrapper:hover{
+    cursor: pointer;    
 }
 
 .feature-content-wrapper>div{
@@ -187,6 +204,36 @@ h1{
 .feature-content-wrapper>div>h3{
     font-size: 24px;
     color: #222222;
+}
+.feature-content-wrapper>div>h3:hover{
+    color: #00d586;
+    transition: 0.2s;
+}
+#hidden-para1{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 17px;
+    color: #576F76;
+    line-height: 30px;
+}#hidden-para2{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 17px;
+    color: #576F76;
+    line-height: 30px;
+}#hidden-para3{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 17px;
+    color: #576F76;
+    line-height: 30px;
+}
+#hidden-para4{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 17px;
+    color: #576F76;
+    line-height: 30px;
 }
 
 /* ====================== WORKFLOW SECTION ===================== */
@@ -546,10 +593,26 @@ h1{
     right: 70%;
 }
 
-#walkme-logo>img{
+#walkme-container{
+    height: 650px;
+}
+
+#walkme-logo{
+    overflow: hidden;
+    background-color: #2f93d2;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
-    width: 100%;
+    text-align: center;
+    height: 250px;
+    display: grid;
+}
+#walkme-img{
+    /* border-top-left-radius: 30px;
+    border-top-right-radius: 30px; */
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    
 }
 
 #walkme-image>div{
