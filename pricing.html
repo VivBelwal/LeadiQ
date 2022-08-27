@@ -739,6 +739,21 @@
 
     }
 </script> -->
+<script>
+    var count = 0;
+    function getPrice(){
+        count++;
+        if(count%2===1){
+            document.querySelector("#geth2>span").innerHTML = "5,550";
+            document.querySelector("#geth3>span").innerHTML = "9,990";
+            document.getElementById("contact").innerHTML = "Annual Plans";
+        } else {
+            document.querySelector("#geth2>span").innerHTML = "4,400";
+            document.querySelector("#geth3>span").innerHTML = "8,800";
+            document.getElementById("contact").innerHTML = "Contact Us";
+        }
+    }
+</script> 
    
 
    
