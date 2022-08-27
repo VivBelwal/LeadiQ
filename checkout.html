@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       body{
+        background-image: url(https://account.leadiq.com/signup/assets/bg-top.ed99a986.svg);
+       }
+        #image{
+    display: flex;
+    justify-content: space-between;
+      margin-left: 70px;
+     margin-right: 70px;
+     margin-top: 40px;
+}
+#backed,#paid{
+    width: 100px;
+    background-color:#304779;
+    /* height: 70px; */
+    margin: 0px 15px;
+    padding: 15px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+   color: #e2d1d1;
+   font-size: 16px;
+   display: inline-block;
+   border: 0;
+}
+#backed:hover,#paid{
+
+    
+   margin-top: 10px;
+    transition: 1.5s;
+}
+#main{
+    margin-top: 100px;
+    display: flex;
+    border: 1px solid red;
+    gap: 20px;
+    height: auto;
+}
+
+  #main1{
+
+    width: 65%;
+    border: 1px solid green;
+   
+  }
+  #main2{
+    width: 30%;
+    border: 1px solid black;
+    height: auto;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    /* padding: 30px; */
+  }
+  .flex_it{
+    display: flex;
+    justify-content: space-between;
+  }
+  #main2 h1{
+   font-size: 20px;
+  }
+  #mini,#mini2{
+  
+    background-color: rgb(204, 191, 191);
+    width: 100%;
+    /* height: 60px; */
+    font-size: 30px;
+    font-weight: bold;
+    padding: 15px;
+    padding-right: 0;
+    padding-left: 0;
+    color: rgb(90, 61, 61);
+
+  }
+  #paid{
+    width: 100%;
+    margin: 0;
+      background-color: #1FCF85;
+      height: 80px;
+      color: white;
+      font-size: 20px;
+      margin-bottom: 70px;
+  }
+  #question{
+    font-size: 18px;
+  }
+  #question p{
+    color: rgb(100, 75, 75);
+  }
+  #question strong{
+    color: rgb(72, 65, 65);
+  }
+  #img{
+    margin-top: 30px;
+    width:50%;
+  }
+    </style>
+</head>
+<body>
+    <div  id="image">
+    
+        <img src="https://account.leadiq.com/signup/assets/leadiq-logo.be12fcc3.svg" alt="">
+       <button id="backed" onclick="back()">back</button>
+       
+    </div>
+
+     <div id="main">
+        <div id="main1">
+            <div id="mini2">Create your Launch account ($72/month*)</div>
+        </div>
+        <div id="main2">
+            <div id="mini">Order Summary</div>
+            <div class="flex_it" >
+                <h4>Launch Plan</h4>
+                <h4>9000</h4>
+            </div>
+            <hr>
+            <div class="flex_it" >
+            <h2>Subtotal</h2>
+            <h2>9000</h2>
+        
+        </div>
+        <hr>
+       <div>
+        <div class="flex_it" >
+            <h5>Discount Applied</h5>
+            <h5>3000</h5>
+        </div>
+        <p>(20% discount applied for the next 3 months)</p>
+       </div>
+           <hr>
+            <div class="flex_it" >
+                <h1>Total due in 14 days</h1>
+                <h1>6000</h1>
+            </div>
+            <hr>
+            <p>
+                *Discount applied. Your billing cycle will be every month. Your discount only applied to your first 3 paid months.
+
+            </p>
+            <hr>
+            <button id="paid">Paid</button>
+            
+           <br>
+          <div id="question">
+            <strong>Frequently Asked Questions:</strong>
+            <br><br><br>
+            <strong>
+             Will I be billed during the trial?
+            </strong>
+            
+            
+            <p>Nope! You will only be billed after your 14-day trial if you choose not to cancel. We’ll send an e-mail reminder near the end of the trial</p>
+            <strong>Can I cancel during my trial?</strong>
+            <p>
+             Certainly! You can cancel at any time, just go to your account dashboard and click “Manage Account”</p>
+ 
+             <strong>Can I change plans?</strong>
+             <p>Of course! You can change plans or switch between monthly/annual billing via your account dashboard.</p>
+          </div>
+          <img id="img" src="https://app.unbounce.com/app_assets/svg/ssl-secure-icon-d301e7024ed14376d33a8d1d420801b35586d41299b1bdcf9d5619bdd2ed3fdf.svg" alt="">
+     </div>
+    </div>
+    
+     
+</body>
+</html>
