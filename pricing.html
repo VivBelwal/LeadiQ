@@ -6,21 +6,158 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            font-family: sans-serif;
+            
+        }
         #head{
             width: 40%;
             margin: auto;
             text-align: center;
-            border: 1px solid black;
+        
         }
+        #head>div{
+            width: 55%;
+            color: #576F76;
+            margin: auto;
+            font-size: 18px;
+            line-height: 30px;
+            text-align: center;
+        }
+        #head>h1{
+            font-size:37px;
+            font-weight: 500;
+        }
+        #head>h3{
+            font-size: 25px;
+            font-weight: 600;
+            opacity: .6;
+        }
+        #head>h3>button{
+            margin-left: 10px;
+            margin-right: 10px;
+            
+        }
+
+
+        /* --------Annual-------- */
         #annual{
             display: flex;
+            width: 95%;
+            margin: auto;
             gap: 20px;
         }
         #annual>div{
+            width: 23%;
             border: 1px solid black;
+            margin-top: 100px;
+            border-radius: 20px;
+            padding: 20px;
+            padding-top: 30px;
         }
+        #annual>div>h3{
+            font-size: 18px;
+            opacity: 0.8;
+            font-weight: 400;
+        }
+        #geth1{
+            font-size: 25px;
+            font-weight: 550;
+            color: #063c4d;
+        }
+        #geth{
+            font-size: 30px;
+            font-weight: 550;
+            color: #063c4d;
+        }
+        #geth2>span, #geth3>span{
+            font-size: 30px;
+            font-weight: 550;
+            color: #063c4d;
+        }
+        #annualp{
+            font-size: 14px;
+            font-weight: 600;
+            color: #85959a;
+        }
+        #getbutton{
+            width: 100%;
+            padding: 20px 35px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-right: 20px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            background-color: white;
+            border: 1px solid #576F76;
+            justify-items: center;
+        }
+        #getbutton:hover{
+            background-color: #ffd265;
+        }
+        #getbuttonyel:hover{
+            background-color: #f7bb30;
+        }
+        #getbuttonyel{
+            width: 100%;
+            padding: 20px 35px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-right: 20px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            background-color: #ffd265;
+            border: 1px solid #576F76;
+            justify-items: center;
+        }
+        #pro{
+            display: flex;
+            justify-content: space-between;
+            
+           
+        }
+        #pro>h1{
+            color:#00d586;
+            font-size: 25px;
+            font-weight: 500px;
+        }
+        #pro>button{
+            width: 110px;
+            font-weight: 700px;
+            height: 30px;
+            border: none;
+            font-size: 14px;
+            background-color: #00d586;
+            color: white;
+            border-radius: 20px;
+            margin-top: 15px;
+        }
+        .para{
+            color: #576F76;
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 500;
+        }
+        #contact{
+            opacity: 0.4;
+            font-size: 40px;
+        }
+        #getdiv{
+            display: flex;
+            gap: 10px;
+
+        }
+        #getdiv>div>img{
+            margin-top: 20px;
+            width: 20px;
+        }
+
+
+        /* -------------Extra----------- */
         #pl{
-            width: 20%;
+            width: 30%;
             margin: auto;
             text-align: center;
         }
@@ -34,59 +171,158 @@
             margin: auto;
             text-align: center;
         }
+
+        /* -----------------------TEams------------------------ */
         #teams{
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 60px;
+        }
+        #teams>div:last-child{
+            width: 95%;
+            margin: auto;
             display: grid;
             grid-template-columns: repeat(6,1fr);
             grid-template-rows: auto;
-            border: 1px solid black;
+    
+            text-align: center;
+            margin-top: 40px;
         }
-        #teams>div>img{
-            width: 90%;
-            border: 1px solid black;
+        #teams>div>div>img{
+            width: 80%;
+            height: 50px;
+        
+        }
+        #compare{
+            padding-top: 150px;
+            background-color: #f4fbfc;
+        }
+        #pl{
+            font-size: 18px;
+            opacity: 0.8;
         }
         #comparediff{
             display: flex;
-            gap: 30px;
+            padding: 30px;
+            text-align: center;
+            gap: 43px;
             border: 1px solid black;
+        }
+        #comparediff>div{
+            width: 20%;
         }
         #comparing{
             display: flex;
-            gap: 30px;
+            gap: 40px;
             border: 1px solid black;
         }
         #comparing>div{
             width: 20%;
-            border: 1px solid black;
+            text-align: center;
+            color: #576f76;
+            font-size: 20px;
+            line-height: 30px;
+            
+        }
+        #comparing>div>img{
+            margin-top: 15px;
+        }
+
+        /* ---------------------Crowd----------------------- */
+        #crowd{
+            padding-top: 200px;
         }
         #crowddiv{
+            width:90%;
+            margin: auto;
             display: flex;
-            gap: 20px;
+            gap: 30px;
+            margin-top: 40px
         }
         #crowddiv>div{
             width: 30%;
+            padding: 100px 20px 100px 40px;
+            border: 1px solid #576F76;
+            border-radius: 25px;
         }
+        #crowddiv>div>div>h3{
+           color: #063c4d;
+           font-size: 18px;
+        }
+        #crowddiv>div>div>p{
+            color: #576f76;
+            line-height: 30px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+        #crowddiv>div>div:last-child{
+            display: flex;
+            gap: 10px;
+        }
+        #crowddiv>div>div>div:first-child{
+            width: 20%;
+        }
+        #crowddiv>div>div>div>img{
+            width: 100%
+        }
+        #crowddiv>div>div>div>p{
+            font-size: 18px;
+            margin-top: 33px;
+            color: #063c4d;
+            font-weight: 600;
+            opacity: 0.6;
+        }
+        #crowddiv>div>div>div>p>span{
+            color: #00d586;
+        }
+        #restbutdiv{
+            width: 20%;
+            margin: auto;
+            margin-top: 30px;
+        }
+        #restbut{
+            width: 100%;
+            padding: 20px 35px;
+            border-radius: 30px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-right: 20px;
+            margin-top: 40px;
+            margin-bottom: 30px;
+            background-color: white;
+            border: 1px solid #576F76;
+            justify-items: center;
+        }
+        #restbut:hover{
+            background-color: #ffd265;
+        }
+       
     </style>
 </head>
 <body>
     <div id="head">
         <h1>Pricing</h1>
-        <p>Plans designed to fit your workflow and prospecting needs.</p>
-        <h3>Monthly Plan <button>O</button> Annual Plan</h3>
+        <div>
+            <p>Plans designed to fit your workflow and prospecting needs.</p>
+        </div>
+        
+        <h3>Monthly Plan <button id="changeprice">O</button> Annual Plan</h3>
     </div>
     <div id="annual">
         <div>
             <h1 id="geth1">Free</h1>
-            <h1 id="geth2">Rps 0</h1>
-            <p>Per User</p>
-            <p>Get started with LeadIQ for free, setup takes less than 5 minutes.</p>
+            <p id="geth">&#8377; 0</p>
+            <p id="annualp">Per User</p>
+            <p class="para">Get started with LeadIQ for free, setup takes less than 5 minutes.</p>
             <button id="getbutton">Get started</button>
+            <hr>
             <h3>Every user gets:</h3>
             <div id="getdiv">
                 <div>
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
                 </div>
                 <div>
-                    <p>15 verified work emails per week</p>
+                    <p class="para">15 verified work emails per week</p>
                 </div>
             </div>
             <div id="getdiv">
@@ -94,7 +330,7 @@
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
                 </div>
                 <div>
-                    <p>0 mobile phone numbers</p>
+                    <p class="para">0 mobile phone numbers</p>
                 </div>
             </div>
             <div id="getdiv">
@@ -102,24 +338,25 @@
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
                 </div>
                 <div>
-                    <p>7 captures to sales platforms</p>
+                    <p class="para">7 captures to sales platforms</p>
                 </div>
             </div>
             <button id="getbutton">Compare Plans</button>
         </div>
         <div>
             <h1 id="geth1">Starter</h1>
-            <h1 id="geth2"><span> Rps 60</span>/monthly</h1>
-            <p>Per User</p>
-            <p>For small sales teams just starting out, lookking to find contact data on their prospects.</p>
+            <p id="geth2"><span> &#8377; 4,440</span>/monthly</p>
+            <p id="annualp">Per User</p>
+            <p class="para">For small sales teams just starting out, lookking to find contact data on their prospects.</p>
             <button id="getbutton">Get started</button>
+            <hr>
             <h3>Every user gets:</h3>
             <div id="getdiv">
                 <div>
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
                 </div>
                 <div>
-                    <p>250 verified work emails per week</p>
+                    <p class="para">250 verified work emails per week</p>
                 </div>
             </div>
             <div id="getdiv">
@@ -127,7 +364,7 @@
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
                 </div>
                 <div>
-                    <p>25 mobile phone numbers</p>
+                    <p class="para">25 mobile phone numbers</p>
                 </div>
             </div>
             <button id="getbutton">Compare Plans</button>
@@ -137,41 +374,43 @@
                 <h1>Pro</h1>
                 <button>Popular</button>
             </div>
-            <h1 id="geth2"><span>Rps 120</span> /monthly</h1>
-            <p>Per User</p>
-            <p>For grwing sales teams focused on building pipeline with a smooth outbound prospecting process.</p>
+            <p id="geth3"><span>&#8377; 8,880</span> /monthly</p>
+            <p id="annualp">Per User</p>
+            <p class="para">For grwing sales teams focused on building pipeline with a smooth outbound prospecting process.</p>
             <button id="getbuttonyel">Get started</button>
+            <hr>
             <h3>Every user gets:</h3>
             <div id="getdiv">
                 <div>
-                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                 </div>
                 <div>
-                    <p>500 verified work emails per week</p>
+                    <p class="para">500 verified work emails per week</p>
                 </div>
             </div>
             <div id="getdiv">
                 <div>
-                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                 </div>
                 <div>
-                    <p>50 mobile phone numbers</p>
+                    <p class="para">50 mobile phone numbers</p>
                 </div>
             </div>
             <button id="getbuttonyel">Compare Plans</button>
         </div>
         <div>
             <h1 id="geth1">Enterprise</h1>
-            <h1 id="geth2">Contact us</h1>
-            <p>For eshtablishment sales teams looking to increase outbound activities and response rates without riskinng data hygiene.</p>
+            <h1 id="contact">Contact us</h1>
+            <p class="para">For eshtablishment sales teams looking to increase outbound activities and response rates without riskinng data hygiene.</p>
             <button id="getbutton">Get started</button>
+            <hr>
             <h3>Every user gets:</h3>
             <div id="getdiv">
                 <div>
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
                 </div>
                 <div>
-                    <p>Unlimited targeted prospecting (10,000/month per user)</p>
+                    <p class="para">Unlimited targeted prospecting (10,000/month per user)</p>
                 </div>
             </div>
             <div id="getdiv">
@@ -179,7 +418,7 @@
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/609f109d705728753f367709_leadiq-pricing-check-gray.svg" alt="">
                 </div>
                 <div>
-                    <p>100 mobile phone numbers</p>
+                    <p class="para">100 mobile phone numbers</p>
                 </div>
             </div>
 
@@ -188,23 +427,29 @@
     </div>
     <div id="teams">
         <div>
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc798a2a5f2b656ab9f3b1_Clari-01.svg" alt="">
+            <h2>Top sales teams have adopted the LeadIQ way</h2>
         </div>
         <div>
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae3578a93f5c114e7b4b_leadiq-logo-showpad.svg" alt="">
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc798a2a5f2b656ab9f3b1_Clari-01.svg" alt="">
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae3578a93f5c114e7b4b_leadiq-logo-showpad.svg" alt="">
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc7609eda2bf6bb6f87039_walkme-client-logo-03.svg" alt="">
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc77f3bbee5c4503c22617_Segment-client-logo-04.svg" alt="">
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae3556fe8b6d153fa680_leadiq-logo-sitecore.svg" alt="">
+            </div>
+            <div>
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae357d19b8697089fb66_leadiq-logo-mulesoft.svg" alt="">
+            </div>
         </div>
-        <div>
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc7609eda2bf6bb6f87039_walkme-client-logo-03.svg" alt="">
-        </div>
-        <div>
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc77f3bbee5c4503c22617_Segment-client-logo-04.svg" alt="">
-        </div>
-        <div>
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae3556fe8b6d153fa680_leadiq-logo-sitecore.svg" alt="">
-        </div>
-        <div>
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae357d19b8697089fb66_leadiq-logo-mulesoft.svg" alt="">
-        </div>
+        
     </div>
     <div id="compare">
         <div id="pl">
@@ -213,6 +458,9 @@
         <div id="comparecontainer">
             <div id="comparemaincontainer">
                 <div id="comparediff">
+                    <div>
+
+                    </div>
                     <div>
                         <h1>Free</h1>
                         <button id="getbutton">Get started</button>
@@ -223,7 +471,7 @@
                     </div>
                     <div>
                         <h1>Pro</h1>
-                        <button id="getbutton1">Get started</button>
+                        <button id="getbuttonyel">Get started</button>
                     </div>
                     <div>
                         <h1>Enterprise</h1>
@@ -589,12 +837,15 @@
         </div>
         <div id="comparediff">
             <div>
+
+            </div>
+            <div>
                 <h1>Starter</h1>
                 <button id="getbutton">Get started</button>
             </div>
             <div>
                 <h1>Pro</h1>
-                <button id="getbutton1">Get started</button>
+                <button id="getbuttonyel">Get started</button>
             </div>
             <div>
                 <h1>Enterprise</h1>
@@ -609,10 +860,10 @@
 
             </div>
             <div id="prodivcomp">
-                <p>$4,800/year</p>
+                <p>&#8377; 3,55,000/year</p>
             </div>
             <div>
-                <p>$4,800/year</p>
+                <p>&#8377; 3,55,000/year</p>
             </div>
 
         </div>
@@ -625,53 +876,59 @@
         </div>
         <div id="crowddiv">
             <div>
-                <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
-                <h3>"Cold calling, here is the best tool!"</h3>
-                <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
-
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
+                    <h3>"Cold calling, here is the best tool!"</h3>
+                    <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
+    
+                </div>
+                <div>
+                    <div>
+                        <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9cfbf5405ebde03392ad8_Artboard%203.webp" alt="">
+                    </div>
+                    <div>
+                        <p>BDM, <span>Mulesoft</span> </p>
+                    </div>
+                </div>
             </div>
             <div>
                 <div>
-                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9cfbf5405ebde03392ad8_Artboard%203.webp" alt="">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
+                    <h3>"Very useful for image + Outreach integration"</h3>
+                    <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
+    
                 </div>
                 <div>
-                    <h2>BDM,<span>Mulesoft</span> </h2>
+                    <div>
+                        <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9d0e82e4b1edc983af1be_Artboard%202.webp" alt="">
+                    </div>
+                    <div>
+                        <p>Account Executive, <span>Skipp</span> </p>
+                    </div>
                 </div>
             </div>
+            <div>
+                <div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
+                    <h3>"AMAZING TOOL! Highly recommend it!"</h3>
+                    <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
+    
+                </div>
+                <div>
+                    <div>
+                        <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9d21afe4e5bb784aaeea8_Artboard%201.webp" alt="">
+                    </div>
+                    <div>
+                        <p>CEO, <span>Creation Agency</span> </p>
+                    </div>
+                </div>
+            </div> 
         </div>
-        <div id="crowddiv">
-            <div>
-                <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
-                <h3>"Very useful for image + Outreach integration"</h3>
-                <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
-
-            </div>
-            <div>
-                <div>
-                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9d0e82e4b1edc983af1be_Artboard%202.webp" alt="">
-                </div>
-                <div>
-                    <h2>Account Executive<span>Skipp</span> </h2>
-                </div>
-            </div>
+        
+        <div id="restbutdiv">
+            <button id="restbut">Check out the rest</button>
         </div>
-        <div id="crowddiv">
-            <div>
-                <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b3cdfc5cc2a5f78b761e2_leadiq-review-user.svg" alt="">
-                <h3>"AMAZING TOOL! Highly recommend it!"</h3>
-                <p>LeadIQ is one of the best tools in the market and you can start your day for cold calling in a few minutes, the way it unlocks mobile and switchboard numbers is unparalleled compared to the tools available in the market...</p>
-
-            </div>
-            <div>
-                <div>
-                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/60d9d21afe4e5bb784aaeea8_Artboard%201.webp" alt="">
-                </div>
-                <div>
-                    <h2>CEO,<span>Creation Agency</span> </h2>
-                </div>
-            </div>
-        </div>
-        <button id="restbut">Check out the rest</button>
+        
     </div>
     <div id="whatis">
         <div>
@@ -730,3 +987,13 @@
     </div>
 </body>
 </html>
+
+
+<!-- <script>
+    let change = document.getElementById("changeprice"); 
+    change.addEventListener("click", myfun());
+
+    function myfun(){
+
+    }
+</script> -->
