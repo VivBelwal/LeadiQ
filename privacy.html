@@ -15,12 +15,12 @@
 
         /*---------heading---------*/
         #header{
-            width: 50%;
+            width: 70%;
             margin-left: 40px;
             margin-top: 200px;
         }
         #header>p{
-            width: 75%;
+            width: 480px;
             
             margin-top: -30px;
             color:  #576F76;
@@ -44,10 +44,16 @@
             background-color: #ffd265;
             border: none;
         }
+        #header>div>button:nth-child(1):hover{
+            background-color: #fabe33;
+        }
         #header>div>button:nth-child(2){
             background-color: white;
             border: 1px solid #576F76;
             color: #576F76;
+        }
+        #header>div>button:nth-child(2):hover{
+            background-color: #ffd265;
         }
 
         /*---------privacy---------*/
@@ -62,8 +68,10 @@
         #prdiv{
             text-align: center;
             margin-top: 40px;
+            
         }
         #privacy>div>h1{
+            margin: auto;
             font-size: 40px;
             font-weight: 400;
             
@@ -112,6 +120,94 @@
             background-color: white;
             border: 1px solid #576F76;
             justify-items: center;
+        }
+        #privacymatter:hover{
+            background-color: #ffd265;
+        }
+
+        @media all and (min-width: 750px) and (max-width: 1000px){
+            #privacydiv{
+                flex-direction: column;
+            }
+            #privacydiv>div{
+                width: 100%;
+            }
+            #privacy>div>p{
+                width: 90%;
+            }
+            #privacydiv>div>div{
+                margin-top: 10px;
+                width: 90%;
+            }
+            #privacymatter{
+                width: 100%;
+            }
+            
+            #privacy>div>h1{
+                font-size: 30px;
+            }
+            #privacy>div{
+                margin:0%
+            }
+        }
+
+        @media all and (min-width: 500px) and (max-width: 750px){
+            body{
+                background-image: none;
+            }
+            #privacydiv{
+                flex-direction: column;
+            }
+            #privacydiv>div{
+                width: 100%;
+            }
+            #privacy>div>p{
+                width: 90%;
+                margin-top: 12px;
+            }
+            #privacy>div>h1{
+                width: 90%;
+                font-size: 30px;
+            }
+            #privacydiv>div>div{
+                margin-top: 10px;
+                width: 90%;
+            }
+            #privacymatter{
+                width: 100%;
+            }
+            
+            #privacy>div:first-child{
+                font-size: 20px;
+                text-align: left;
+                margin-left: 20px;
+            }
+            #prdiv>h1{
+                margin-left: 20px;
+                font-size: 20px;
+            }
+            
+            #header{
+                margin-top: 120px;
+                width: 80%;
+            }
+            #header>p{
+                width: 480px;
+                margin-top: -10px;
+                color:  #576F76;
+                font-size: 18px;
+                line-height: 30px;
+            }
+             #header>h1{
+                font-size: 40px;
+                font-weight: bold;
+                color: #063c4d;
+            }
+            #header>div{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
         }
     </style>
 </head>
