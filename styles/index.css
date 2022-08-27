@@ -265,6 +265,89 @@ border: 1px solid red;
 
   }
 
+ /* ========================== DECORATIVE BACKGROUND =========================== */
+
+.decorative-background{
+  
+  background-color:white;
+  padding: 100px 0px;
+  background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b810fbae85943d9fd9c7_leadiq-background-testimonial-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081b80de8f2326eb44d6bf5_leadiq-background-testimonial-1.svg);
+  background-repeat: no-repeat;
+  background-position: -5% 30%, 105% 60%
+  }
+
+  /* ====================== DIRECTOR MESSAGE SECTION ===================== */
+
+
+#director-bg{
+  background-position: -5% 50%, 105% 80%;
+}
+#hovering-box{
+  display: grid;
+  grid-template-columns: .8fr .8fr;
+  width: 90%;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid #c3c0c0;
+  border-radius: 30px;
+  padding: 80px 50px;
+  gap: 30px;
+  background-color: #fff;
+  grid-template-areas: "a b";
+}
+
+#image-wrap{
+  text-align: center;
+  background-color: #dcf8eec2;
+  border-radius: 30px;
+ grid-area: a;
+  padding: 20px 40px;
+  margin-right: 40px;
+}
+
+#message-wrapper{
+ 
+  grid-area: b;
+}
+#message-wrapper>img{
+  width: 100%;
+}
+
+#message>h3{
+  margin: 30px 0px;
+  font-size: 36px;
+  font-weight: 500;
+  word-spacing: 1px;
+  line-height: 40px;
+  color: #063C4D;
+}
+
+#signature{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+#avatar>img{
+  width:80px;
+}
+.designation{
+  font-size: 22px;
+  color: #063C4D;
+}
+.designation>p{
+  font-weight: bold;
+  color: #576F76;
+  font-size: 20px;
+}
+#green-font{
+  color: #00d586;
+  font-weight: bold;
+}
+
+
+  /* =========LOCATING  CONTACT DATA=======  */
+
   #locatingContact{
     width:100% ;
     height: auto;
@@ -273,7 +356,6 @@ border: 1px solid red;
 
   }
 
-  /* =========LOCATING  CONTACT DATA=======  */
 
   #contant{
     width: 80%;
@@ -384,139 +466,133 @@ border: 1px solid red;
  width: 100%;
  border: 1px solid white;
  color: #063C4D;
+ 
 }
 
 #walkme-section{
-    display: grid;
-    grid-template-columns: 0.9fr 1fr;
-    margin-top: 100px;
-    gap: 110px;
-    align-items: center;
-    background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b60eb70e424bb5d121_leadiq-case-study-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b6fbae857af2a01631_leadiq-case-study-background-1.svg);
-    background-position: 108% 0%, 53% 100%;
-    background-repeat: no-repeat;
-    margin-bottom: 100px;
-
+  display: grid;
+  grid-template-columns: 0.9fr 1fr;
+  margin-top: 100px;
+  gap: 110px;
+  align-items: center;
+  background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b60eb70e424bb5d121_leadiq-case-study-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b6fbae857af2a01631_leadiq-case-study-background-1.svg);
+  background-position: 108% 0%, 53% 100%;
+  background-repeat: no-repeat;
+  margin-bottom: 200px;
 }
 
 #walkme-heading{
-    font-size: 40px;
-    line-height: 60px;
-    margin-bottom: 20px;
-    
+  font-size: 40px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  color: #063C4D;
 }
 #description-sec{
-    padding-left: 30px;
-    margin-left: 50px;
+  padding-left: 30px;
 }
 
 
 #description-sec>p{
-    font-size: 18px;
-    color: #576F76;
-    line-height: 30px;
+  font-size: 18px;
+  color: #576F76;
+  line-height: 30px;
 }
 
 #divider{
-    margin-top: 70px;
-    margin-bottom: 50px;
-    color: #576F76;
+  margin-top: 70px;
+  margin-bottom: 50px;
 }
 
 #bd-director{
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 #bd-avatar>img{
-    width: 120px;
+  width: 120px;
 }
 
 #db-message>h3{
-    font-size: 22px;
-    color: #063C4D;
-    line-height: 40px;
+  font-size: 22px;
+  color: #063C4D;
+  line-height: 40px;
+  margin-bottom: 30px;
+  width: 92%;
 }
 #name>p{
-    font-size: 18px;
-    color: #576F76;
-    line-height: 30px; 
+  font-size: 18px;
+  color: #576F76;
+  line-height: 30px; 
 }
 #read-btn{
-    position: relative;
-    right: 50%;
+  position: relative;
+  right: 40%;
+  top: 30px;
 }
+
 #read-btn>a{
   text-decoration: none;
-  color: #063C4D ;
-  padding: 20px 35px;
-  border-radius: 30px;
-  font-size: 18px;
-  margin-right: 20px;
+    color: #063C4D;
+    padding: 20px 35px;
+    border-radius: 30px;
+    font-size: 18px;
+   margin-left: 150px;
 }
-.button-holder{
-  text-align: center;
-  margin-top: 80px;
-}
-#walkme-image{
-  margin-top: 0px;
-  transition: 0.5s;
 
-  
+#walkme-container{
+  height: auto;
+  margin: auto;
 }
-/* #walkme-logo:hover{
-    margin-top: -8px;
-    transition: 0.4s;
-    transform: translateX(-130x);
-} */
 
 #walkme-logo{
-  display: inline;
+  overflow: hidden;
+  background-color: #2f93d2;
+  border-top-left-radius: 30px;
   border-top-right-radius: 30px;
- width: 100%;
- border: 1px solid red;
+  text-align: center;
+  height: 250px;
+  display: grid;
 }
-#walkme-logo:hover{
-  margin-top: -8px;
-  transition: 0.4s;
+#walkme-img{
+  /* border-top-left-radius: 30px;
+  border-top-right-radius: 30px; */
+  width: 500px;
+  align-items: center;
+  margin: auto;
+  
 }
-
-#walkme-logo>img{
-    border-top-left-radius: 30px;
-    border-top-right-radius: 30px;
-    width: 100%;
-}
-
 
 #walkme-image>div{
-    background-color: #fff;
-    border-radius: 30px;
-    width: 92%;
+  background-color: #fff;
+  border-radius: 30px;
+  width: 92%;
 }
 #about-walkme{
-    padding: 40px;
-    color: #063C4D;
+  padding: 40px;
 }
 #about-walkme>h2{
-    font-size: 22px;
-    line-height: 30px;
-    margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 20px;
 }
 #about-walkme>p{
-    font-size: 18px;
-    color: #576F76;
-    line-height: 30px; 
-    margin-bottom: 30px;
+  font-size: 18px;
+  color: #576F76;
+  line-height: 30px; 
+  margin-bottom: 30px;
 }
 
 #green-div{
-    color: #00d586;
-    font-weight: 600;
-    border-bottom: 2px solid #00d586;
-    width: 150px;
-    padding: 8px;
-    font-size: 18px;
+  color: #00d586;
+  font-weight: 600;
+  border-bottom: 2px solid #00d586;
+  width: 110px;
+  padding: 8px;
+  font-size: 18px;
 }
+
+
+/* color: #576F76; name>p */
 /* ====================== WORKFLOW SECTION ===================== */
 
 #workflowParent{
