@@ -1,28 +1,36 @@
-/* Navbar  */
+Navbar 
+a{
+    text-decoration: none;
+    color: #DAE2E3;
+}
 
 #navContainer{
     position: sticky;
     top: 0px;
     z-index: 5;
-    height: 48px;
+   
     width: 100%;
     background-color: #063C4D;
     color: #DAE2E3;
+    max-width: 100%;
+    border: 1px solid red;
+   
 }
 
 #nav{
     
     display: flex;
-    
+    width: 100%;
  
     justify-content: space-around;
     padding:  24px 0px;
-  
+  border: 1px solid white;
 }
 #logo{
     width: 127px;
     height: 37px;
    margin-left:-70px ;
+   position: relative;
 }
 #logo>img{
     width: 100%;
@@ -95,7 +103,9 @@ margin-right: -18px;
 #logo,#details,:hover{
     cursor: pointer;
 }
-
+#details a{
+    color: #063C4D;
+}
 #WhyLead{
     display: none;
     color: #063C4D;
@@ -109,6 +119,7 @@ margin-right: -18px;
     position: absolute;
     box-shadow:rgba(6, 60, 77, 0.1) 1px 1px;
     border: 1px solid  #DAE2E3;
+   
 }
 
 
@@ -161,5 +172,118 @@ margin-right: -18px;
     color: #00D586;
     transition: 0.5s;
   }
+  @media all and (min-width:780px) and (max-width:997px){
+    #navContainer{
+        position: sticky;
+        top: 0px;
+        z-index: 5;
+        height: 48px;
+        width: 800px;
+        background-color: #063C4D;
+        color: #DAE2E3;
+        max-width: 100%;
+    }
+
+    #nav{
+    
+        display: flex;
+        
+     
+        justify-content: space-between;
+        padding:  24px 0px;
+      
+    }
+    #logo{
+        width: 100px;
+       margin-left:30px ;
+       position: relative;
+    }
+    #btn{
+        padding: 7px 12px;
+        margin-right: 20px;
+        }
 
 
+  }
+
+  @media all and (min-width:997px) and (max-width:1150px){
+  
+    #nav{
+    
+        display: flex;
+        
+     
+        justify-content: space-around;
+        padding:  24px 0px;
+      
+    }
+    #logo{
+      
+       margin-left:30px ;
+       position: relative;
+    }
+    #btn{
+      
+        margin-right: 18px;
+        }
+
+}
+
+
+  @media all and (min-width:320px) and (max-width:780px){
+    #navContainer{
+        position: sticky;
+        top: 0px;
+        z-index: 5;
+        height: 48px;
+        width: 800px;
+        background-color: #063C4D;
+        color: #DAE2E3;
+        max-width: 100%;
+    }
+
+    #nav{
+    
+        display: flex;
+        
+     
+        justify-content: space-between;
+        padding:  24px 0px;
+      
+    }
+    #logo{
+        width: 100px;
+       margin-left:30px ;
+       position: relative;
+    }
+    #btn{
+        padding: 7px 12px;
+        margin-right: 20px;
+        }
+
+
+  }
+
+  @media all and (min-width:997px) and (max-width:1150px){
+  
+    #nav{
+    
+        display: flex;
+        
+     
+        justify-content: space-around;
+        padding:  24px 0px;
+      
+    }
+    #logo{
+      
+       margin-left:30px ;
+       position: relative;
+    }
+    #btn{
+      
+        margin-right: 18px;
+        }
+
+
+  }

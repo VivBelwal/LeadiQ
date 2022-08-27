@@ -15,8 +15,8 @@ function navbar(){
     
       <!-- Drop Down Whylead -->
       <div id="WhyLead">
-       
-        <p>Features</p>
+      <a href="features.html"><p>Features</p></a>
+        
         <p>Success Stories</p>
     
        </div>
@@ -63,8 +63,8 @@ function navbar(){
         <p>Support</p>
         <p>Careers</p>
         <p>Press</p>
-        <p>Privacy Center</p>
-    
+        
+        <a href="privacy.html"><p>Privacy Center</p></a>
        </div>
      </div>
     
