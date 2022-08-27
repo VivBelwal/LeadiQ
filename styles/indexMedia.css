@@ -1,0 +1,200 @@
+@media all and (min-width:997px) and (max-width:1150px){
+    #prosPect>div:first-child{
+        width: 400px;
+}
+      #prosPect>div:first-child>h1{
+font-size: 42px;
+      }
+      #prosPect>div:first-child>#leadText{
+     font-size: 19px;
+      
+     }
+   
+     #inputWork{
+   
+     
+       width: 370px;
+       border: 1px solid #DAE2E3;
+       
+       padding: 5px 10px;
+       
+     }
+     #inputWork>input{
+      width: 240px;
+     }
+     #inputWork>a{
+    padding: 20px 20px;
+    }
+  
+    
+     #prosPect>div:first-child>#companayImg{
+     width: 450px;
+      }
+
+     #prosPect>div:first-child>#companayImg>img{
+       width: 75%;
+   
+     }
+   
+     #pros{
+   height: 85vh; 
+        }
+   
+    
+     #pros>div:first-child>img{
+       width: 100%;
+     }
+     #pros>div:last-child{
+    width:630px ;
+      }
+
+      /* =========SALES SECTION=========== */
+      #salesSection{
+ width: 100%;
+ background-position: 100% 30%;
+  background-size:12% ;
+      }
+     
+#back2{
+        
+    width: 70%;
+    background-position: 6.5% 55%;
+}
+
+/* =========Director section======= */
+
+#image-wrap{
+  width: 80%;
+}
+#image-wrap>img{
+  width: 90%;
+}
+
+
+    /* ============= LOCATING CONTACT DATA =============== */
+   
+    #contant{
+        width: 80%;
+        /* margin-top: 200px; */
+       
+        margin-bottom: 20px;
+      }
+  
+  
+     #iceBurg>img{
+        width: 110%;
+      }
+    
+       /* ====================== Clari SECTION =====================  */
+       #walkme-section{
+     
+  background-position: 108% 10%, 53% 85%;
+        }
+
+}
+
+
+@media all and (min-width:760px) and (max-width:997px){
+
+    /* ==========Prospect========== */
+
+  #prosPect{
+   flex-direction: column;
+ }
+  
+ #pros{
+background-position: 100% 0%;
+   
+margin-left: 120px;
+    margin-top: 40px;
+  }
+
+  /* ==========SALES SECTION=============== */
+
+  #salesSection{
+height: auto;
+background-position: 90% 58%;
+background-color: #F4FBFC;
+padding-bottom: 400px;
+  }
+ 
+ 
+
+  #saleMid{
+   height : 837px;
+width: 95%;
+
+flex-direction: column;
+
+
+  }
+  
+#leadAllow>div{
+ 
+    width: 630px;
+  
+  }
+
+  #back2{
+    
+    width: 95%;
+    }
+    
+  #locatingContact{
+    width:100% ;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+  }
+  
+  #iceBurg{
+   position: relative;
+    
+    left: 10px;
+  }
+
+  #contant{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+  }
+ /* ============Director section========*/
+
+ #hovering-box{
+  display: grid;
+  grid-template-columns: .8fr;
+
+ 
+  grid-template-areas: "b"
+                        "a";
+}
+#image-wrap{
+
+  background-color: #dcf8eec2;
+
+}
+
+
+    /* ========Clari SECTION======== */
+
+    #walkme-section{
+      display: grid;
+      grid-template-columns: 1fr ;
+      margin-top: 100px;
+      gap: 110px;
+      justify-content: center;
+      align-items: center;
+      background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b60eb70e424bb5d121_leadiq-case-study-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b6fbae857af2a01631_leadiq-case-study-background-1.svg);
+      background-position: 108% 70%, 0% 100%;
+      background-repeat: no-repeat;
+      margin-bottom: 100px;
+  
+  }
+}
+
+
+@media all and (min-width:320px) and (max-width:760px){
+    
+}

@@ -35,11 +35,49 @@ if(scrollValue>99){
 
   prosSection();
 
+  
+//   let zoomClari =()=>{
+//     let walkmeLogo =document.getElementById('walkme-logo')
+//     let clariLogo = document.querySelector('#walkme-logo>img');
+//     clariLogo.style.width="120%";
+//     walkmeLogo.style.overflow="hidden"
+    
+// }
+
+// let zoutClari =()=>{
+//     let clariLogo = document.querySelector('#walkme-logo>img');
+//     clariLogo.style.width="100%";
+
+    
+// }
  
+//  document.getElementById("walkme-image").addEventListener("mouseover",zoomClari)
+//  document.getElementById("walkme-image").addEventListener("mouseout",zoutClari)
  
+
  
- 
- 
+ // ============== WALKME IMAGE SECTION ===============
+
+
+let walkmeImage = document.getElementById("walkme-img");
+let walkmeContainer = document.getElementById("walkme-container");
+
+
+
+let hoverEffect = (event) => {
+    walkmeImage.style.width="530px";
+    walkmeImage.style.transition="0.5s";
+    // walkmeImage.style.overflow="hidden"
+}
+
+let removeEffect = (event) => {
+    walkmeImage.style.width="500px";
+    walkmeImage.style.transition="0.5s";
+
+}
+
+walkmeContainer.addEventListener("mouseover", hoverEffect);
+walkmeContainer.addEventListener("mouseout", removeEffect);
  
  
  
