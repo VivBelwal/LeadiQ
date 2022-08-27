@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <div  id="image">
+    
+        <img src="https://account.leadiq.com/signup/assets/leadiq-logo.be12fcc3.svg" alt="">
+       <button id="loginn" onclick="back()">back</button>
+       
+    </div>
+    <div id="main">
+        <p class="work">Enter Password</p>
+    
+        <input id="text" type="text">
+        <span id="special">Atleast one spicial characters ,</span>
+        <span id="min">Atleast 8 characters</span>
+
+<p>
+    <input type="checkbox"><span>by reset password,you agree to the <a href="">Terms of Use</a> <a href="">Privacy Policy</a></span>
+    <p class="work"> Enter Conform Password</p>
+    
+    <input id="text1" type="text">
+
+
+  
+</p>
+
+<p id="match">Password Does'nt matched</p>
+<button id="submit" onclick="submit()">Submit</button>
+
+
+</div>
+
+
+</body>
+</html>
+<script>
+
+
+function back(){
+    window.location.href="forget.html"
+}
+    let obj = JSON.parse(localStorage.getItem("reset"))
+    
+
+
+
+
+// document.getElementById("show_email").innerText = obj.email
+
+    let arr = JSON.parse(localStorage.getItem("signupData"))|| [];
+
+let submit = ()=>{
+ let pass1 = document.getElementById("text").value;
+ let pass2 = document.getElementById("text1").value;
+
+ if(pass1.length >= 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
+    document.getElementById("special").style.display = 'none'
+    document.getElementById("min").style.display = 'none'
+
+
+   
+   
+      
+ }else{
+     document.getElementById("special").style.display = 'block'
+     document.getElementById("min").style.display ='block'
+ }
+
+ if(pass1.length > 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
+    document.getElementById("special").style.display = 'none'
+    document.getElementById("min").style.display = 'none'
+
+ if(pass1 === pass2){
+   
+    arr.forEach(function(el){
+        if(el.email == obj.reset){
+            el.password = pass1;
+            localStorage.setItem("signupData",JSON.stringify(arr));
+             console.log(arr)
+    //    window.location.href = "login.html"
+        }
+    })
+   
+
+}else{
+    document.getElementById("match").style.display = 'block'
+}
+}
+
+}
+
+
+</script>

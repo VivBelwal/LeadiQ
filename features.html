@@ -4,17 +4,357 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./components/navTop.css">
+    <link rel="stylesheet" href="./components/navbar.css">
     <link rel="stylesheet" href="./styles/features.css">
+
+    <style>
+        #navContainer{
+            position: sticky;
+            top: 0px;
+            z-index: 5;
+            height: 48px;
+            width: 100%;
+            color: #063C4D;
+        }
+
+        #navTop>div>p{
+            font-size:  15px;
+            line-height: 18px;
+            color: #063C4D;
+        }
+        #navTop span{
+            display: block;
+            font-size:  15px;
+            line-height: 18px;
+            color: #063C4D;
+            margin-top: 15px;   
+        }
+
+    </style>
+
     <title>LeadIQ | Features</title>
 </head>
 <body>
+    <nav>
+        <!-- Nav Top  -->
+        <div id="navTop" style="background-color: #fff; color: #063C4D;"></div>></div>
+
+        <!-- NavBar -->
+        <div id="navContainer" style="background-color: #fff;"></div>
+ 
+
+   <!-- NavBar ended -->
+    </nav>
     <header>
         <div id="head-container">
             <h1>Features</h1>
-            <p>Focus on the right activities and automate the rest. Learn how LeadIQ optimizes your prospecting workflow.</p>
+            <p id="header-para">Focus on the right activities and automate the rest. Learn how LeadIQ optimizes your prospecting workflow.</p>
             <a href="#" class="base-btn">Book a demo</a>
             <a href="#" class="ghost-btn">Start free</a>
         </div>
     </header>
+
+    <div id="divider"></div>
+
+    <div id="outbound-teams">
+        <h3>Top outbound teams choose leadIQ</h3>
+        <div id="image-holder">
+            
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc798a2a5f2b656ab9f3b1_Clari-01.svg" alt="Clari">
+
+            
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae3578a93f5c114e7b4b_leadiq-logo-showpad.svg" alt="Showpad">
+
+            
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc7609eda2bf6bb6f87039_walkme-client-logo-03.svg" alt="Walkme">
+
+            
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/60dc77f3bbee5c4503c22617_Segment-client-logo-04.svg" alt="Segment">
+
+            
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae3556fe8b6d153fa680_leadiq-logo-sitecore.svg" alt="Sitecore">
+
+            
+            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081ae357d19b8697089fb66_leadiq-logo-mulesoft.svg" alt="MuleSoft">
+
+        </div>
+    </div>
+
+    <div id="services-section">
+        <h2 class="headings">Have your sales team focus on high value activities.</h2>
+        <div id="features-and-image">
+            <div id="features">
+                <div class="feature-content-wrapper" id="showPara1">
+                    <div>
+                        <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0b8beb62062f0a26cd77_leadiq-icon-prospecting.svg" alt="Icon">
+                        <h3>Prospecting Workflow</h3>
+                    </div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0bcc6d8f484d1c4c0eb7_leadiq-arrow-tab.svg" alt="See more" class="feature-section-arrow" id="feature-arrow-1">
+                    <p id="hidden-para1">Focus on prospecting, not data entry. LeadIQ enables sales teams to capture leads while browsing LinkedIn or any other site.</p>
+                </div>
+                
+                <div class="feature-content-wrapper" id="showPara2">
+                    <div>
+                        <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0b8b4c2ceea76bbf3e4a_leadiq-icon-analytics.svg" alt="Icon">
+                        <h3>Analytics Dashboard</h3>
+                    </div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0bcc6d8f484d1c4c0eb7_leadiq-arrow-tab.svg" alt="See more" class="feature-section-arrow" id="feature-arrow-2">
+                    <p id="hidden-para2">Reward your top prospectors and keep an eye on your team’s prospecting by title, region, and company size.</p>
+                </div>
+                
+                <div class="feature-content-wrapper" id="showPara3">
+                    <div>
+                        <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0b8bbff4f5eed15ffba5_leadiq-icon-enterprise.svg" alt="Icon">
+                        <h3>Enterprise-Grade Governance</h3>
+                    </div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0bcc6d8f484d1c4c0eb7_leadiq-arrow-tab.svg" alt="See more" class="feature-section-arrow" id="feature-arrow-3">
+                    <p id="hidden-para3">Control what integrations are used, how credits are spent, and what quality of data is captured—ensuring that your sales tools always have the best data available.</p>    
+                </div>
+                
+                <div class="feature-content-wrapper" id="showPara4">
+                    <div>
+                        <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0b8beb62062f0a26cd77_leadiq-icon-prospecting.svg" alt="Icon">
+                        <h3>Integration with Leading Tools</h3>
+                    </div>
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b0bcc6d8f484d1c4c0eb7_leadiq-arrow-tab.svg" alt="See more" class="feature-section-arrow" id="feature-arrow-4">
+                    <p id="hidden-para4">Connect LeadIQ with your favorite sales tools. Gone are the days of manually re-entering contact data from one platform to another.</p>    
+                </div>
+                
+            </div>
+            <div id="feat-image">
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/61681ecf66af3cd63eff920c_Prospector%20%2B%20Integrations.webp" alt="Image">
+            </div>
+        </div>
+    </div>
+
+    <div id="workflow-section">
+        <h2 class="headings">What will your sales reps' workflow look like with LeadIQ?</h2>
+
+        <div id="card-wrapper">
+            <div class="cards">
+                <div class="image-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b193c4102b13e73c49b87_leadiq-features-capture.svg" alt="">
+                </div>
+                <h3>Identify</h3>
+                <p class="card-description">Identify a target account, locate it on LinkedIn Sales Navigator, and open the LeadIQ extension.</p>
+            </div>
+            <div class="cards">
+                <div class="image-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b1f00eb62061365271b18_leadiq-features-governance.svg" alt="">
+                </div>
+                <h3>Filter</h3>
+                <p class="card-description">Narrow down the list of contacts using LinkedIn's filters. Research every prospect and capture their information with LeadIQ.</p>
+            </div>
+            <div class="cards">
+                <div class="image-holder" id="image-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b193c88272f287bd18fec_leadiq-features-aalytics.svg" alt="">
+                </div>
+                <h3>Automate</h3>
+                <p class="card-description">Allow LeadIQ to route the contacts to the proper sequence, while also updating records. You and your team are now ready to prospect.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="decorative-background" id="director-bg">
+        <div id="hovering-box">
+            <div id="image-wrap">
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/61682a2f2c0e6a07186d4d6d_LeadIQ-Integrations-Iterable-Quote.svg" alt="">
+            </div>
+            <div id="message-wrapper">
+                <div id="message">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b19b536e6a74f639686e9_leadiq-iterable-logo.svg" alt="">
+                    <h3>"Having prospect data is one thing, but being able to do something with that data is very important for us. LeadIQ enables us to move a lot faster."</h3>
+                </div>
+                <div id="signature">
+                    <div id="avatar">
+                        <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b193c428f097cbf5483a6_leadiq-iterable-quote-avatar-david.jpg" alt="">
+                    </div>
+                    <div class="designation">
+                        <h3>David Zerwin</h3>
+                        <p>Sr. Director Sales Operations, <span id="green-font">Iterable</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cards-container" id="detailed-feature">
+        <h2 class="headings">Detailed LeadIQ features</h2>
+    </div>
+
+    <div class="page-banner">
+        <div class="content holder">
+            <h2>
+                Your outbound teams will save so much time. Seriously.
+            </h2>
+            <a href="#" class="base-btn">Book a demo</a>
+            <a href="#" class="ghost-btn" id="ghost-baner-btn">Start free</a>
+        </div>
+    </div>
+
+
+    <div class="decorative-background" id="manager-message">
+        <div class="hovering-box" id="hovering-message-director">
+            <div id="manager-message-box">
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b20aed7fed417cc9c6c0d_leadiq-walkme-featured-image.svg" alt="">
+            </div>
+            <div id="message-wrap">
+                <div class="message" id="manager-box">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081b633c9bc20456cf9deed_leadiq-walkme-logo.svg" alt="">
+                    <h3>"With the old tools we had, we would have to run our prospects through so many validation tools. We’ve reduced our sales stack by two or three applications and I save 45 minutes to an hour every day."</h3>
+                </div>
+                <div class="signature">
+                    <div class="designation">
+                        <h3>Greg Sale</h3>
+                        <p>Account Development Manager, <span class="green-font">WalkMe</span></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="button-holder">
+            <a href="#" class="ghost-btn" id="blog-btn">Read Blog</a>
+        </div>
+    </div>
+
+
+    <div id="tool-section">
+        <div id="heading-sec">
+            <h2 class="headings" id="tool-heading">
+                Works with the tools your team uses everyday
+            </h2>
+            <p>Eliminate the data entry and help your teams prospect smarter.</p>
+        </div>
+        <div id="tools">
+            <div id="row1">
+                <div class="tool-holder" id="salesforce">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b233f2ea7610d41b03ce6_leadiq-team-logo-salesforce.svg" id="salesforce-img" alt="">
+                </div>
+                <div class="tool-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b233ed5bb71aee09244e5_leadiq-team-logo-hubspot.svg" alt="">
+                </div>
+                <div class="tool-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b233eb3c3ab1337d5479d_leadiq-team-logo-linkedin.svg" alt="">
+                </div>
+                <div class="tool-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b233ff0aecf72bf09a938_leadiq-team-logo-outreach.svg" alt="">
+                </div>
+            </div>
+            <div id="row2">
+                <div class="tool-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/61682052236bd321b65fac5a_salesloft-on-light.svg" alt="">
+                </div>
+                <div class="tool-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b233e0fd6044ecd87b98b_leadiq-team-logo-gsuite.svg" alt="">
+                </div>
+                <div class="tool-holder">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b233fcfe6197188156e31_leadiq-team-logo-slack.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="button-holder">
+            <a href="#" class="base-btn">Book a demo</a>
+            <a href="#" class="ghost-btn">Start free</a>
+        </div>
+    </div>
+
+
+    <div id="walkme-section">
+        
+        <div id="description-sec">
+            <h2 id="walkme-heading">
+                    LeadIQ Helps WalkMe’s Enterprise Outbound Team
+            </h2>
+            <p>For WalkMe, scaling their outbound programs wasn’t about just the lead data and email sequences. It was also about prospecting as efficiently as possible.</p>
+            <div id="divider"></div>
+            <div id="bd-director">
+                <div id="bd-avatar">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/60cc95fd86c6e55e6e5fb97e_Aaron-Zukoski.webp" alt="">
+
+                </div>
+                <div id="db-message">
+                    <h3>
+                        “Without LeadIQ, our outbound team’s workflow would be disjointed and time consuming. ”
+                    </h3>
+                    <div class="signature">
+                        <div id="name">
+                            <h3>Aaron Zukoski</h3>
+                            <p>Director of Business Development</p>
+                        </div>
+        
+                    </div>
+
+                    <div class="button-holder" id="read-btn">
+                        <a href="#" class="ghost-btn">Read Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="walkme-image">
+            <div id="walkme-container">
+                <div id="walkme-logo">
+                    <img src="https://assets.website-files.com/60819f9be381394642b5659e/609b252f6d63772b4180f8d5_leadiq-case-study-walkme.svg" alt="" id="walkme-img">
+                </div>
+                <div id="about-walkme">
+                    <h2>
+                        LeadIQ Helps WalkMe’s Enterprise Outbound Team Save 1,000 Hours a Quarter.
+                    </h2>
+                    <p>WalkMe’s Digital Adoption Platform is a code-free software platform that enables organizations to measure, drive...</p>
+                    <a href="./index.html">
+                        <div id="green-div">
+                            Read Blog
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="page-banner" id="banner2">
+        <div class="content holder">
+            <h2>
+                Your outbound teams will save so much time. Seriously.
+            </h2>
+            <a href="#" class="base-btn">Book a demo</a>
+            <a href="#" class="ghost-btn" id="ghost-banner-btn">Start free</a>
+        </div>
+    </div>
+
+    <div id="book-demo-sec">
+        <div>
+            <a href="./index.html">
+                <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081a538174f4d6bc01bdd27_leadiq-logo.svg" alt="">
+            </a>
+        </div>
+
+        <div class="button-holder" id="button-demo">
+            <a href="#" class="base-btn">Book a demo</a>
+            <a href="#" class="ghost-btn">Start free</a>
+        </div>
+    </div>
+
 </body>
 </html>
+<script src="./scripts/features.js" type="module">
+
+        
+</script>
+<!-- <script type="module">
+    import navTop from "../components/navTop.js"
+    let navTopData = navTop();
+    let navTopContainer = document.getElementById("navTop");
+    navTopContainer.innerHTML = navTopData;
+    import {navbar,dropDown,scroll} from "../components/navbar.js"
+    let nav = navbar();
+    dropDown();
+    scroll();
+    console.log(nav)
+    let navContainer = document.getElementById("navContainer");
+    navContainer.innerHTML = (nav);
+    
+</script> -->

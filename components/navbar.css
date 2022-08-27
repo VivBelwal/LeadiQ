@@ -13,6 +13,8 @@
 #nav{
     
     display: flex;
+    
+ 
     justify-content: space-around;
     padding:  24px 0px;
   
@@ -20,7 +22,7 @@
 #logo{
     width: 127px;
     height: 37px;
-   margin-left:-20px ;
+   margin-left:-70px ;
 }
 #logo>img{
     width: 100%;
@@ -28,23 +30,30 @@
 
 #details{
     display: flex;
-    gap:-10px;
-    margin-top: 5px;
+    gap : 50px;
+    margin-top: 10px;
 }
 
 #details>div{
     
-    width: 140px;
-    margin-left: -10px;
+    width: auto;
+    
     height: 18px;
-    gap: 10px;
+
+  
+}
+#details>div:first-child{
+height: 44px;
    
 }
 #details>div:nth-child(2){
     margin-left: -30px;
+   
+    height: 44px;
     }
 #details>div:nth-child(3){
 margin-left: -30px;
+height: 44px;
 }
 #details>div:nth-child(4){
     margin-left: -20px;
@@ -98,6 +107,8 @@ margin-right: -18px;
     font-size: 16px;
     margin-top: 15px;
     position: absolute;
+    box-shadow:rgba(6, 60, 77, 0.1) 1px 1px;
+    border: 1px solid  #DAE2E3;
 }
 
 
@@ -112,6 +123,8 @@ margin-right: -18px;
     margin-top: 15px;
     font-size: 16px;
     position: absolute;
+    box-shadow:rgba(6, 60, 77, 0.1) 1px 1px;
+    border: 1px solid  #DAE2E3;
 }
 #Solutions>div>h4{
     font-size: 18px;
@@ -129,7 +142,8 @@ margin-right: -18px;
     margin-top: 15px;
     font-size: 16px;
     position: absolute;
-
+    box-shadow:rgba(6, 60, 77, 0.1) 1px 1px;
+    border: 1px solid  #DAE2E3;
 }
 #WhyLead>p:hover{
     cursor: pointer;
