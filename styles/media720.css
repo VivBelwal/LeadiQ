@@ -1,0 +1,186 @@
+@media all and (min-width:780px) and (max-width:997px){
+
+    /* ==========Prospect========== */
+
+  #prosPect{
+   flex-direction: column;
+ }
+  
+ #pros{
+background-position: 100% 0%;
+   
+margin-left: 120px;
+    margin-top: 40px;
+  }
+  #pros>div:first-child{
+  
+    width:350px ;
+   
+    margin-top: 10px;
+   left: 0px;
+    
+   
+  }
+
+  /* ==========SALES SECTION=============== */
+
+  #salesSection{
+height: auto;
+background-position: 90% 58%;
+background-color: #F4FBFC;
+padding-bottom: 400px;
+  }
+ 
+ 
+
+  #saleMid{
+   height : 837px;
+width: 95%;
+
+flex-direction: column;
+
+
+  }
+  
+#leadAllow>div{
+ 
+    width: 630px;
+  
+  }
+
+  #back2{
+    
+    width: 95%;
+    }
+    
+  #locatingContact{
+    width:100% ;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+
+  }
+  
+  #iceBurg{
+   position: relative;
+    
+    left: 10px;
+  }
+
+  #contant{
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 10px;
+  }
+ /* ============Director section========*/
+
+ #hovering-box{
+  display: grid;
+  grid-template-columns: .8fr;
+
+ 
+  grid-template-areas: "b"
+                        "a";
+}
+#image-wrap{
+
+  background-color: #dcf8eec2;
+
+}
+
+
+    /* ========Clari SECTION======== */
+
+    #walkme-section{
+      display: grid;
+      grid-template-columns: 1fr ;
+      margin-top: 100px;
+      gap: 110px;
+      justify-content: center;
+      align-items: center;
+      background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b60eb70e424bb5d121_leadiq-case-study-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b6fbae857af2a01631_leadiq-case-study-background-1.svg);
+      background-position: 108% 70%, 0% 100%;
+      background-repeat: no-repeat;
+      margin-bottom: 100px;
+  
+  }
+
+  /* =========work flow=========== */
+
+  .headings{
+   
+    width: 80%;
+ 
+  }
+
+  #card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,60%);
+    column-gap:-20% ; 
+   row-gap: 10px;
+  
+}
+#card-wrapper>.cards:first-child{
+ 
+ left: 20px;
+}
+#card-wrapper>.cards:nth-child(2){
+
+  right: 80px;
+ }
+ #card-wrapper>.cards:nth-child(3){
+ 
+  left: 20px;
+ }
+.cards{
+  width: 60%;
+  position: relative;
+ }
+ 
+
+ /*===========Footer Section========== */
+
+ #footerContainer>div:first-child{
+  display: grid;
+  grid-template-columns: repeat(1,48%);
+  column-gap: 4%;
+  row-gap: 50px;
+  height: 62px;
+  align-items: center;
+}
+
+#footerContainer>div:first-child>div:last-child>a:first-child{
+  margin-left: 0px;
+ 
+}
+#footerContainer>div:first-child a{
+ 
+  padding: 15px 20px;
+
+
+}
+#midFooter{
+
+  width: 100%;
+  margin-top: 70px;
+
+  display: grid;
+  grid-template-columns: 19% 23% 12.5% 25%;
+  column-gap: 2%;
+}
+#midfoot2>div:last-child{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+ row-gap: 17.5px;
+ }
+ #footerBottom{
+  display: grid;
+  grid-template-columns: 10% 31% 10%;
+  color: #576F76;
+  column-gap: 100px;
+
+}
+}
+
+
