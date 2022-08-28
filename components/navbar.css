@@ -1,8 +1,5 @@
-Navbar 
-a{
-    text-decoration: none;
-    color: #DAE2E3;
-}
+
+
 
 #navContainer{
     position: sticky;
@@ -13,7 +10,7 @@ a{
     background-color: #063C4D;
     color: #DAE2E3;
     max-width: 100%;
-    border: 1px solid red;
+   
    
 }
 
@@ -24,7 +21,7 @@ a{
  
     justify-content: space-around;
     padding:  24px 0px;
-  border: 1px solid white;
+ 
 }
 #logo{
     width: 127px;
@@ -71,6 +68,7 @@ height: 44px;
    
     margin-top: 5px;
 }
+
 .arrow{
     
    
