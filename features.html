@@ -9,13 +9,28 @@
     <link rel="stylesheet" href="./styles/features.css">
 
     <style>
+        #nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding:  24px 0px;
+            
+        }
         #navContainer{
             position: sticky;
             top: 0px;
             z-index: 5;
-            height: 48px;
+            height: auto;
             width: 100%;
             color: #063C4D;
+            border: 1px solid red;
+        }
+
+        #navTop{
+  
+            height: 50px;
+            width: 100%;
+            margin-top: 4px;
         }
 
         #navTop>div>p{
@@ -28,9 +43,15 @@
             font-size:  15px;
             line-height: 18px;
             color: #063C4D;
-            margin-top: 15px;   
+            position: relative;
+            top: -14px;   
         }
-
+        #imgg{
+            position: relative;
+            top:-6px
+        }
+        
+        
     </style>
 
     <title>LeadIQ | Features</title>
@@ -38,7 +59,7 @@
 <body>
     <nav>
         <!-- Nav Top  -->
-        <div id="navTop" style="background-color: #fff; color: #063C4D;"></div>></div>
+        <div id="navTop" style="background-color: #fff; color: #063C4D;"></div></div>
 
         <!-- NavBar -->
         <div id="navContainer" style="background-color: #fff;"></div>
@@ -278,7 +299,7 @@
                 </div>
                 <div id="db-message">
                     <h3>
-                        “Without LeadIQ, our outbound team’s workflow would be disjointed and time consuming. ”
+                        “Without LeadIQ, our outbound team’s workflow would be disjointed and time consuming.”
                     </h3>
                     <div class="signature">
                         <div id="name">
@@ -342,17 +363,17 @@
 </html>
 <script src="./scripts/features.js" type="module">       
 </script>
-<!-- <script type="module">
+<script type="module">
     import navTop from "../components/navTop.js"
     let navTopData = navTop();
     let navTopContainer = document.getElementById("navTop");
     navTopContainer.innerHTML = navTopData;
-    import {navbar,dropDown,scroll} from "../components/navbar.js"
+    import {navbar,dropDown} from "./components/navbar.js"
     let nav = navbar();
     dropDown();
-    scroll();
+
     console.log(nav)
     let navContainer = document.getElementById("navContainer");
     navContainer.innerHTML = (nav);
     
-</script> -->
+</script>
