@@ -698,6 +698,7 @@ h1{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
     justify-content: center;
     margin-bottom: 80px;
 }
@@ -744,6 +745,7 @@ h1{
 
 #feat-image>img{
     width: 80%;
+    margin-left: 80px;
 }
 
 #features{
@@ -753,58 +755,6 @@ h1{
     width: 80%;
 }
 
-.feature-content-wrapper{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: #fff;
-    padding: 30px 10px;
-}
-.feature-content-wrapper+p{
-    background-color: #fff;
-}
-.feature-content-wrapper:hover{
-    cursor: pointer;    
-}
-
-.feature-content-wrapper>div{
-    display: flex;
-    gap: 10px;
-}
-.feature-content-wrapper>div>h3{
-    font-size: 24px;
-    color: #222222;
-}
-.feature-content-wrapper>div>h3:hover{
-    color: #00d586;
-    transition: 0.2s;
-}
-#hidden-para1{
-    padding-top: 30px;
-    padding-left: 40px;
-    font-size: 17px;
-    color: #576F76;
-    line-height: 30px;
-}#hidden-para2{
-    padding-top: 30px;
-    padding-left: 40px;
-    font-size: 17px;
-    color: #576F76;
-    line-height: 30px;
-}#hidden-para3{
-    padding-top: 30px;
-    padding-left: 40px;
-    font-size: 17px;
-    color: #576F76;
-    line-height: 30px;
-}
-#hidden-para4{
-    padding-top: 30px;
-    padding-left: 40px;
-    font-size: 17px;
-    color: #576F76;
-    line-height: 30px;
-}
 }
 
 
@@ -866,4 +816,47 @@ h1{
     margin-left: 20px;
 }
 
+#services-section {
+    background-color: #f4fbfc;
+    padding: 140px 30px;
+    
+}
+#hidden-para1,#hidden-para2,#hidden-para3,#hidden-para4{
+    display: none;
+}
+
+.headings{
+    font-size: 35px;
+    width: 80%;
+    margin: auto;
+    line-height: 50px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#features-and-image{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: auto;
+    align-items: center;
+}
+
+#feat-image{
+    height: 100%;
+}
+
+#feat-image>img{
+    width: 80%;
+    margin-left: 50px;
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 80%;
+}
 }
