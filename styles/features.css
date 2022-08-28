@@ -607,8 +607,6 @@ h1{
     display: grid;
 }
 #walkme-img{
-    /* border-top-left-radius: 30px;
-    border-top-right-radius: 30px; */
     width: 500px;
     align-items: center;
     margin: auto;

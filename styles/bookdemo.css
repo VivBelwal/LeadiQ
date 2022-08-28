@@ -1,0 +1,440 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: #063C4D;
+}
+
+a{
+  text-decoration: none;
+  color: #063C4D;
+  padding: 20px 35px;
+  border-radius: 30px;
+  font-size: 18px;
+  margin-right: 20px;
+}
+.base-btn{
+  background-color: #ffd265;
+  border: none;
+  
+}
+
+.ghost-btn{
+  border: .2px solid rgb(215, 215, 215); 
+  color: #063C4D; 
+}
+
+.ghost-btn:hover{
+  background-color: #fdc84d;
+  transition: 0.5s;
+}
+
+.base-btn:hover{
+  background-color: #efb735;
+  transition: 0.5s;
+}
+#ghost-banner-btn, #ghost-baner-btn{
+  color: #fff;
+}
+
+#ghost-banner-btn:hover{
+  color: #063C4D;
+}
+#ghost-baner-btn:hover{
+  color: #063C4D;
+}
+
+
+/* ===================== FORM SECTION =================== */
+
+#form-background{
+    background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b810fbae85943d9fd9c7_leadiq-background-testimonial-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081b80de8f2326eb44d6bf5_leadiq-background-testimonial-1.svg);
+    display: grid;
+    grid-template-columns: 0.9fr 1fr;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    align-items: center;
+    background-position: 60% -5%, 112% 85%;
+    background-size: 500px 400px;
+}
+
+#col{
+    height: 750px;
+    width: 500px;
+    background-color: #063C4D;
+    position: absolute;
+    z-index: -2;
+    left: 60%;
+}
+#contact-form{
+    padding: 40px;
+}
+#form>h2{
+    font-size: 24px;
+    color: #063C4D;
+}
+
+#form>label{
+    font-size: 15px;
+    color: #063C4D;
+    
+}
+#form>label>span{
+    color: red;
+}
+
+#form>input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 35px;
+    background-color: rgb(236, 249, 255);
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#form>select{
+    width: 93%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    height: 36px;
+    background-color: rgb(236, 249, 255);
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#form>button{
+    margin-top: 20px;
+    margin-bottom: 18px;
+    background: #ffd265;
+    border-color: #ffd265;
+    color: #063c4d;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 3px;
+    padding: 12px 24px;
+}
+
+#form{
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#form-desc{
+    width: 100%;
+    padding: 30px;
+}
+#form-heading{
+    font-size: 2em;
+}
+
+#heading-form{
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+#heading-form+p{
+    color: grey;
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+#heading-form+p+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #00d586;
+    font-weight: 600;
+}
+
+#list{
+    margin-top: 30px;
+    padding: 0;
+    margin-left: 20px;
+    list-style-type: none;
+    width: 350px;
+  }
+.tick{
+    background: url('https://assets.website-files.com/60819f9be381394642b5659e/628bac72a84c6697dbf8146e_check-green.svg') no-repeat left top;
+    background-size: 20px;
+    height: 34px;
+    padding-top: 2px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: #063C4D;
+    font-weight: 600;
+  }
+
+  #header{
+    margin-bottom: 180px;
+  }
+
+
+  /* ============= STRATAGY ============== */
+
+  #strategy{
+    background-color: #f0fff9;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-bottom: 100px;
+  }
+
+  #strategy>h2{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  #strategy>p{
+    font-size: 18px;
+    color: grey;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 40px;
+  }
+
+  #text-hold{
+    padding: 50px;
+    /* padding-right: 80px; */
+    width: 100%;
+  }
+
+  #flex{
+    display: flex;
+    gap: 30px;
+  }
+
+  .experience{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+  }
+
+  .exp-text{
+    font-size: 18px;
+    color: grey;
+    line-height: 25px;
+    word-spacing: 1px;
+    letter-spacing: 0.5px;
+    width: 100%;
+    font-weight: 600;
+  }
+
+  .img-icon{
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .img-icon>img{
+    width: 50px;
+  }
+
+  #feat-img{
+    background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b42d78a93f84724ea09f_leadiq-activities-background-1.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081b42dfc784618c92acce7_leadiq-activities-background-2.svg);
+    background-position: 5% 95%, 110% 10%;
+    background-repeat: no-repeat;
+  }
+
+  #feat-img>img{
+    width: 100%;
+  }
+
+
+/* ================= TOP SALES TEAM =================== */
+
+  #top-sale-team{
+    display: flex;
+    margin-bottom: 100px;
+  }
+
+  #heading-hold{
+    width: 40%;
+    padding-left: 25px;
+  }
+
+  #heading-hold>h2{
+    width: 80%;
+    
+  }
+
+  #comp-logo-wrap{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-left: 80px;
+  }
+  #comp-logo-holder>img{
+    width: 50px;
+  }
+
+  /* ================= CROUSER SECTION ============== */
+
+  #crouser-background {
+    background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b80de8f2326eb44d6bf5_leadiq-background-testimonial-1.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081b810fbae85943d9fd9c7_leadiq-background-testimonial-2.svg);
+    background-repeat: no-repeat;
+    background-position: 0% 0%, 100% 50%;
+    margin-bottom: 150px;
+  }
+
+  #crouser-holder{
+    width: 90%;
+    margin: auto;
+  }
+
+  .crouser{
+    width: 100%;
+    display: flex;
+    gap: 80px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #bfbfbf;
+    border-radius: 30px;
+    padding: 80px 50px;
+    align-items: center;
+  }
+
+  #crouser-img-holder{
+    height: auto;
+    width: 200%;
+    padding: 20px;
+  }
+
+  .couser-img-div{
+    background-color: #eafff7;
+    border-radius: 20px;
+  }
+
+  /* ====================== BANNER ===================== */
+
+.page-banner{
+
+  display: flex;
+  background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c44063e24051a3c11e4d_leadiq-leader-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c4401f9db9638f7e83ed_leadiq-leader-background-1.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #063C4D;
+  height: 80vh;
+  background-position: 0% 0%, 100% 100%;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.page-banner>div{
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.page-banner>div>h2{
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 60px;
+  line-height: 60px;
+}
+
+#banner2{
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+
+/* ====================== BOOK DEMO SECTION ===================== */
+
+#book-demo-sec{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 30px 0px;
+  margin-bottom: 50px;
+}
+
+/* ====================== FOOTER SECTION ===================== */
+
+footer{
+  display: grid;
+  grid-template-columns: .4fr 1fr .4fr ;
+  color: #576F76;
+  font-size: 16px;
+  justify-content: space-around;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+#part-1{
+  display: flex;
+  align-items: center;
+}
+
+#part-1>p{
+  color: #576F76;
+}
+#part2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#part2>a{
+  font-size: 16px;
+  color: #576F76;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#part2>a:hover{
+  color: #02B389;
+}
+
+#part3{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+#part3>div{
+  /* padding: 5px; */
+  background-color: #0678E9;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+#part3>div>a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon{
+  position: relative;
+  width: 20px;
+  height: 15px;
+  right: 17px;
+  bottom: 10px;
+}
+
+#part3>div:nth-child(2){
+  background-color:  #1EA1F2;
+}
+
+#part3>div:nth-child(3){
+  background-color:  #0766C1;
+}
+    
+#part3>div:nth-child(4){
+  background-color: red;
+}
