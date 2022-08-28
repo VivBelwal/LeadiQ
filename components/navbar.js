@@ -69,8 +69,8 @@ function navbar(){
      </div>
     
      <div class="detailDiv">
-      <p>Pricing</p>
-    
+     <p onclick="link()">Pricing</p>
+     
      </div>
     
     
@@ -139,7 +139,7 @@ function changeColor(){
     if(scrollValue>150){
         nav.style.backgroundColor="White";
         nav.style.color="#063C4D";
-        nav.style.transition="0.5s"
+          nav.style.transition="0.5s"
     } else if(scrollValue<150){
         nav.style.backgroundColor="#063C4D";
         nav.style.color="#DAE2E3"

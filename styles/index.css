@@ -255,7 +255,7 @@ padding: 11px;
    height: 20px;
     font-size: 18px;
     font-weight:500;
-    border: 1px solid red;
+  
     background-color: #ffd265;
     color: #063C4D;
     
@@ -316,7 +316,7 @@ height: auto;
   gap: 30px;
   background-color: #fff;
   grid-template-areas: "a b";
-  border: 1px solid red;
+
 }
 
 #image-wrap{
@@ -327,16 +327,13 @@ height: auto;
  grid-area: a;
   padding: 20px 40px;
   margin-right: 40px;
-border: 1px solid red;
-}
-#image-wrap>img{
-  
+
 }
 
 #message-wrapper{
  width: 100%;
   grid-area: b;
-  border: 1px solid red;
+
   
 }
 #message-wrapper>img{
@@ -585,7 +582,7 @@ border: 1px solid red;
   margin: auto;
   margin-left: -5px;
   width: 80%;
-  border: 1px solid red;
+
 }
 
 #walkme-logo{
@@ -596,7 +593,7 @@ border: 1px solid red;
   text-align: center;
   height: 250px;
   
-  border: 1px solid red;
+
   display: grid;
 }
 #walkme-logo>img{

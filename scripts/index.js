@@ -88,9 +88,28 @@ walkmeContainer.addEventListener("mouseout", removeEffect);
  
  
  
+//  link(){
+//     window.location.href="pricing.html"
+//   }
  
+document.querySelector(".detailDiv>p").addEventListener("click",linkP)
+
+ function linkP(){
+    window.location.href="pricing.html"
+ }
+
+ document.querySelector("#btn").addEventListener("click",bookDemo)
+
+ function bookDemo(){
+    window.location.href="bookdemo.html"
+ }
+
+ document.querySelector("#log").addEventListener("click",login)
+
  
- 
+function login(){
+    window.location.href="login.html"
+}
 
  
  

@@ -288,7 +288,7 @@ flex-direction: column;
   gap: 10px;
   background-color: #fff;
   grid-template-areas: "a b";
-  border: 1px solid red;
+ 
 }
 #hovering-box{
 display: grid;
