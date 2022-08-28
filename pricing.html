@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./components/navbar.css">
     <link rel="stylesheet" href="./components/navTop.css">
+    <link rel="stylesheet" href="./styles/footer.css">
     <style>
         *{
             font-family: sans-serif;
@@ -18,7 +19,8 @@
         #navContainer{
             background-color: white;
             color: #063c4d;
-            padding-bottom: 60px;
+            padding-bottom: 30px;
+            border: none;
         }
         #navTop>div>p{
             color: #063c4d;
@@ -255,7 +257,7 @@
             padding: 30px;
             text-align: center;
             gap: 43px;
-            border: 1px solid black;
+            border: 1px solid #576f76;
         }
         #comparediff>div{
             width: 20%;
@@ -263,7 +265,7 @@
         #comparing{
             display: flex;
             gap: 40px;
-            border: 1px solid black;
+            border: 1px solid #576f76;
         }
         #comparing>div{
             width: 20%;
@@ -349,7 +351,7 @@
             padding: 0%;
             position: absolute;
             z-index: 1;
-            top: 135px;
+            top: 355px;
             left: -20px;
             border: none;
         }
@@ -358,7 +360,7 @@
             padding: 0%;
             position: absolute;
             z-index: 5;
-            top: 500px;
+            top: 700px;
             right: -130px;
             border: none;
         }
@@ -394,10 +396,16 @@
                 justify-content: space-between;
             }
             #comparemaincontainer>div>button{
-                padding: 5px 20px 5px 20px;
+                padding: 10px 40px 10px 40px;
                 border: none;
                 font-size: 18px;
+                color: #576F76;
+                border-radius: 20px;
             }
+            #comparemaincontainer>div>button:hover{
+                background-color: #f7bb30;
+            }
+
        }
        @media all and (min-width: 500px) and (max-width: 750px){
             #annual{
@@ -418,6 +426,21 @@
             }
             #crowddiv>div{
                 width: 85%;
+            }
+            #comparemaincontainer>div{
+                padding: 80px 20px 80px 20px;
+            }
+            #comparemaincontainer>div>div{
+                padding: 2px 30px 2px 30px;
+                display: flex;
+                justify-content: space-between;
+            }
+            #comparemaincontainer>div>button{
+                padding: 10px 40px 10px 40px;
+                border: none;
+                font-size: 18px;
+                color: #576F76;
+                border-radius: 20px;
             }
        }
     </style>
@@ -606,7 +629,7 @@
                     </div>
                     <div>
                         <h1>Pro</h1>
-                        <button id="gietbuttonyel">Get started</button>
+                        <button id="getbuttonyel">Get started</button>
                     </div>
                     <div>
                         <h1>Enterprise</h1>
@@ -1065,84 +1088,11 @@
         </div>
         
     </div>
-    <div id="whatis">
-        <div>
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081a538174f4d6bc01bdd27_leadiq-logo.svg" alt="">
-        </div>
-        <div>
-            <button>Book a demo</button>
-            <button>Start free</button>
-        </div>
+    <div id="footerParent">
     </div>
-    <div id="likehead">
-        <div>
-            <h1>Why LeadIQ</h1>
-            <p>Features</p>
-            <p>Pricing</p>
-            <p>Success Stories</p>
-        </div>
-        <div>
-            <h1>Solutions</h1>
-            <p>Sales Leaders</p>
-            <p>Revenue Ops</p>
-            <p>Sales Professionals</p>
-            <p>Eliminating Busy Work</p>
-            <p>Strategic Prospecting</p>
-            <p>Data Accuracy</p>
-        </div>
-        <div>
-            <h1>Resources</h1>
-            <p>Blog</p>
-            <p>Support</p>
-            <p>Careers</p>
-            <p>Press</p>
-            <p>Privacy Center</p>
-        </div>
-        <div>
-            <div><img src="https://assets.website-files.com/60819f9be381394642b5659e/6081c958408db1111a5f6e4b_leadiq-icon-contact-phone.svg" alt=""> 1-888-653-2347</div>
-            <div><img src="https://assets.website-files.com/60819f9be381394642b5659e/6081c9584a52ae9f54e9d71c_leadiq-icon-contact-email.svg" alt=""> support@leadiq.com</div>
-        </div>
-    </div>
-    <div id="footer">
-        <div>
-            <p>LeadIQ, Inc. All rights reserved.</p>
-        </div>
-        <div>
-            <p>Privacy Policy</p>
-            <p>Terms of Service</p>
-            <p>Security</p>
-            <p>Do Not Sell My Personal Information</p>
-        </div>
-        <div>
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e5452d50f1f7a3fb3_leadiq-social-media-facebook.svg" alt="">
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4eee94984fa4071d52_leadiq-social-media-twitter.svg" alt="">
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e288f5700bcb39bfd_leadiq-social-media-linkedin.svg" alt="">
-            <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e9e444d3a934f9719_leadiq-social-media-youtube.svg" alt="">
-        </div>
-    </div>
-</body>
+
 </html>
-
-
-<script type="module">
-     import {navbar,dropDown,scroll} from './components/navbar.js'
-
-import navTop from './components/navTop.js'
-
-let navContainer = document.getElementById('navContainer')
-
-navContainer.innerHTML=navbar();
-
-let navTopC = document.getElementById('navTop')
-
-navTopC.innerHTML=navTop();
-
-dropDown();
-
-// scroll();
-
-
-
+<script>
     var count = 0;
     function getPrice(){
         count++;
@@ -1156,6 +1106,33 @@ dropDown();
             document.getElementById("contact").innerHTML = "Contact Us";
         }
     }
+</script>
+
+<script type="module">
+     import {navbar,dropDown,scroll} from './components/navbar.js'
+     import footer from './components/footer.js'
+        import navTop from './components/navTop.js'
+
+    let navContainer = document.getElementById('navContainer')
+
+    navContainer.innerHTML=navbar();
+
+    let navTopC = document.getElementById('navTop')
+
+    navTopC.innerHTML=navTop();
+
+    dropDown();
+    let footerParent = document.getElementById('footerParent')
+ 
+ footerParent.innerHTML=footer();
+
+// scroll();
+
+
+
+
+
+    
 
     function myFunction(x) {
         if (x.matches) { // If media query matches
@@ -1164,16 +1141,16 @@ dropDown();
             let comparetop= document.createElement("div")
             let button1 = document.createElement("button");
             button1.innerText = "Free";
-            button1.style.backgroundColor = "white"
+            button1.id = "newbtn"
             let button2 = document.createElement("button");
             button2.innerText = "Starter";
-            button2.style.backgroundColor = "white"
+            button2.id = "newbtn"
             let button3 = document.createElement("button");
             button3.innerText = "Pro";
-            button3.style.backgroundColor = "white"
+            button3.id = "newbtn"
             let button4 = document.createElement("button");
             button4.innerText = "Enterprise";
-            button4.style.backgroundColor = "white"
+            button4.id = "newbtn";
             comparetop.append(button1,button2,button3,button4);
             container.append(comparetop);
             let compareget = document.createElement("div");
