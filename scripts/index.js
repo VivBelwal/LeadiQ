@@ -110,7 +110,25 @@ function login(){
 }
 
  
- 
+let obj1 = JSON.parse (localStorage.getItem("objimg"))
+console.log(obj1)
+
+if(obj1!==null){
+    document.getElementById("log").style.display="none"
+   let photo = document.getElementById("imgg");
+    photo.src=obj1.img
+    photo.style.width="50px"
+    
+    photo.style.borderRadius="50%"
+    photo.style.border="2px solid white"
+    photo.addEventListener("click",function(){
+        console.log("sss")
+    
+       
+
+    
+    })
+}
 
 
 
