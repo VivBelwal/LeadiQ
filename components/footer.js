@@ -11,8 +11,8 @@ function footer(){
 
     <!-- Book a demo and start free buttons -->
    <div>
-    <a href="#" class="base-btn">Book a demo</a>
-    <a href="#" class="ghost-btn">Start Free</a>
+    <a href="bookdemo.html" class="base-btn">Book a demo</a>
+    <a href="signup1.html" class="ghost-btn">Start Free</a>
    </div>
   
   </div>
@@ -35,8 +35,8 @@ function footer(){
   <div>Why LeadIQ</div>
 
   <!-- footer link -->
-   <a href="#">Features</a> <br>
-   <a href="#">Pricing</a> <br>
+   <a href="features.html">Features</a> <br>
+   <a href="pricing.html">Pricing</a> <br>
    <a href="#">Success Stories</a> <br>
 
     </div>
@@ -69,7 +69,7 @@ function footer(){
          <a href="#">Support</a> <br>
          <a href="#">Careers </a> <br>
          <a href="#">Press</a> <br>
-         <a href="#">Privacy Center</a> <br>
+         <a href="privacy.html">Privacy Center</a> <br>
       
           </div>
      <!-- end midfooter3 -->
