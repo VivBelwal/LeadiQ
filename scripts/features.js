@@ -2,8 +2,6 @@ import {navbar,dropDown,scroll} from '../components/navbar.js'
 
 import navTop from '../components/navTop.js'
 
-import footer from '../components/footer.js'
-
 let navContainer = document.getElementById('navContainer')
 
 navContainer.innerHTML=navbar();
@@ -13,9 +11,6 @@ let navTopC = document.getElementById('navTop')
 navTopC.innerHTML=navTop();
 
 dropDown();
-let footerParent = document.getElementById('footerParent')
- 
-footerParent.innerHTML=footer();
 
 // scroll();
 
