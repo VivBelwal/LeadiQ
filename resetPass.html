@@ -28,7 +28,7 @@
     
     <input id="text1" type="text">
 
-
+   
   
 </p>
 
@@ -77,6 +77,10 @@ let submit = ()=>{
  if(pass1.length > 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
     document.getElementById("special").style.display = 'none'
     document.getElementById("min").style.display = 'none'
+   
+  
+
+    
 
  if(pass1 === pass2){
    
@@ -85,7 +89,16 @@ let submit = ()=>{
             el.password = pass1;
             localStorage.setItem("signupData",JSON.stringify(arr));
              console.log(arr)
-    //    window.location.href = "login.html"
+       
+             document.querySelector("body").style.opacity="0.2"
+             document.querySelector("body").style.backgroundRepeat="no-repeat"
+             document.querySelector("body").style.backgroundPosition="center"
+             document.querySelector("body").style.backgroundAttachment="fixed"
+        document.querySelector("body").style.backgroundImage="url(https://gogoacarrentals.com/wp-content/uploads/2019/02/tick.gif)"
+             setTimeout(function(){
+                window.location.href = "login.html"
+             },4000)
+      
         }
     })
    

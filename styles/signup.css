@@ -45,12 +45,16 @@
          display: inline-block;
          height: 40px;
 
-
      }
+     
+     #email{
+      outline-color: #73e0b2;
+   }
      #text{
         width: 100%;
         /* height: 50px;
          */
+         outline-color: #73e0b2;
          display: inline-block;
          height: 40px;
 
@@ -60,11 +64,13 @@
         width: 100%;
         /* height: 50px;
          */
+         outline-color: #73e0b2;
          display: inline-block;
          height: 40px;
 
 
      }
+    
 
      strong{
 
@@ -105,17 +111,17 @@
       border-radius: 70px;
      }
      #red{
-      color: #1FCF85;
+      color: #cf1f1f;
       display:none
       
       /* text-align: center; */
      }
      #special{
-      color: #1FCF85;
+      color: #ef4444;
       display:none
      }
     #min{
-      color:#1FCF85;
+      color:#eb321e;
       display:none
     }
     #match{

@@ -52,6 +52,7 @@ border-radius: 30px;
 width: 100%;
 padding: 10px 0;
 height: 10px;
+ outline-color: #73e0b2;
 
 
 }
@@ -61,6 +62,7 @@ width:100%;
 padding: 10px 0;
 height: 22px;
 margin-bottom:70px ;
+outline-color: #73e0b2;
 }
 #login{
  width: 100%;

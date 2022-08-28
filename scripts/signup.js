@@ -50,6 +50,8 @@ let signup = ()=>{
  }else{
      document.getElementById("special").style.display = 'block'
      document.getElementById("min").style.display =   'block'
+     document.getElementById("text").style.border="1px solid red"
+     document.getElementById("text1").style.border="1px solid red"
  }
 
  if(pass1.length >= 8 && pass1.match(/[!\@\#\$\%\^\&\*\+\-]/)){
