@@ -5,15 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./components/navbar.css">
+    <link rel="stylesheet" href="./components/navTop.css">
     <style>
         *{
             font-family: sans-serif;
+            /* margin: 0px;
+            padding: 0px; */
+            /* box-sizing: border-box; */
             
+        }
+        #navContainer{
+            background-color: white;
+            color: #063c4d;
+            padding-bottom: 60px;
+        }
+        #navTop>div>p{
+            color: #063c4d;
+        }
+
+        #navTop{
+            background-color: white;
+        }
+        #navTop span{
+            display: block;
+            font-size:  15px;
+            line-height: 18px;
+            color: #063C4D;
+            margin-top: 15px;   
         }
         #head{
             width: 460px;
             margin: auto;
             text-align: center;
+            margin-top: 30px;
         
         }
         #head>div{
@@ -50,7 +75,7 @@
         #changeprice>div{
             width: 25px;
             height: 25px;
-            
+            margin-left: 30px;
             border: 1px solid white;
             background-color: white;
             border-radius: 50px;
@@ -360,6 +385,19 @@
             #crowddiv>div{
                 width: 85%;
             }
+            #comparemaincontainer>div{
+                padding: 80px 20px 80px 20px;
+            }
+            #comparemaincontainer>div>div{
+                padding: 2px 30px 2px 30px;
+                display: flex;
+                justify-content: space-between;
+            }
+            #comparemaincontainer>div>button{
+                padding: 5px 20px 5px 20px;
+                border: none;
+                font-size: 18px;
+            }
        }
        @media all and (min-width: 500px) and (max-width: 750px){
             #annual{
@@ -385,6 +423,12 @@
     </style>
 </head>
 <body>
+    <div id="navTop">
+
+    </div>
+ 
+     <!-- NavBar -->
+     <div id="navContainer"></div>
     <div id="head">
         <h1>Pricing</h1>
         <div>
@@ -562,14 +606,14 @@
                     </div>
                     <div>
                         <h1>Pro</h1>
-                        <button id="getbuttonyel">Get started</button>
+                        <button id="gietbuttonyel">Get started</button>
                     </div>
                     <div>
                         <h1>Enterprise</h1>
                         <button id="getbutton">Get started</button>
                     </div>
                 </div>
-                <div id="comaprefeature">
+                <div id="comparefeature">
                     <h3>Features</h3>
                 </div>
                 <div id="compareplans">
@@ -577,16 +621,16 @@
                         <div>
                             <p>Save prospects into Google</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -595,16 +639,16 @@
                         <div>
                             <p>Capture contacts into Hubspot</p>
                         </div>
-                        <div>
+                        <div id="div1">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div2">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -613,16 +657,16 @@
                         <div>
                             <p>Hubspot duplicate detection</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -631,16 +675,16 @@
                         <div>
                             <p>Saleforce duplicate detection</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -649,16 +693,16 @@
                         <div>
                             <p>Sync captures to Salesforce in one click</p>
                         </div>
-                        <div>
+                        <div id="div1">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -667,16 +711,16 @@
                         <div>
                             <p>Sync captures to Outreach Sequences</p>
                         </div>
-                        <div>
+                        <div id="div1">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -685,16 +729,16 @@
                         <div>
                             <p>Save prospects into SalesLoft Cadences</p>
                         </div>
-                        <div>
+                        <div id="div1">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -703,16 +747,16 @@
                         <div>
                             <p>Access to the LeadIQ databasse</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             <p>Annual plan only</p>
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -721,16 +765,16 @@
                         <div>
                             <p>Custom field mapping for Salesforce, Outreach and SalesLoft</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -739,16 +783,16 @@
                         <div>
                             <p>Custom field mapping for Hubspot</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
                         <div id="prodivcomp">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/609c025cd4d8653a79ed93c1_leadiq-pricing-check-green.svg" alt="">
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -757,16 +801,16 @@
                         <div>
                             <p>File enrichment (CSV Upload)</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             <p>100 row per CSV</p>
                         </div>
-                        <div>
+                        <div id="div4">
                             <p>1000 row per CSV</p>
                         </div>
 
@@ -775,16 +819,16 @@
                         <div>
                             <p>Capture a custom lead</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -793,16 +837,16 @@
                         <div>
                             <p>Priority support and dedicated customer success team</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -811,16 +855,16 @@
                         <div>
                             <p>Prospect job change notifications</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -829,16 +873,16 @@
                         <div>
                             <p>Update contact information with one click</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -847,16 +891,16 @@
                         <div>
                             <p>Prospecting and team analytics dashboards</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -865,16 +909,16 @@
                         <div>
                             <p>Territory management</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -883,16 +927,16 @@
                         <div>
                             <p>Manage data type reps can capture</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             
                         </div>
-                        <div>
+                        <div id="div4">
                             <img src="https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg" alt="">
                         </div>
 
@@ -901,16 +945,16 @@
                         <div>
                             <p>Single sign on (SSO)</p>
                         </div>
-                        <div>
+                        <div id="div1">
 
                         </div>
-                        <div>
+                        <div id="div2">
                             
                         </div>
                         <div id="prodivcomp">
                             <p>Optional Add-on</p>
                         </div>
-                        <div>
+                        <div id="div4">
                             <p>Optional Add-on</p>
                         </div>
 
@@ -1080,7 +1124,25 @@
 </html>
 
 
-<script>
+<script type="module">
+     import {navbar,dropDown,scroll} from './components/navbar.js'
+
+import navTop from './components/navTop.js'
+
+let navContainer = document.getElementById('navContainer')
+
+navContainer.innerHTML=navbar();
+
+let navTopC = document.getElementById('navTop')
+
+navTopC.innerHTML=navTop();
+
+dropDown();
+
+// scroll();
+
+
+
     var count = 0;
     function getPrice(){
         count++;
@@ -1094,4 +1156,198 @@
             document.getElementById("contact").innerHTML = "Contact Us";
         }
     }
+
+    function myFunction(x) {
+        if (x.matches) { // If media query matches
+            document.getElementById("comparemaincontainer").innerHTML = null;
+            let container = document.getElementById("comparemaincontainer");
+            let comparetop= document.createElement("div")
+            let button1 = document.createElement("button");
+            button1.innerText = "Free";
+            button1.style.backgroundColor = "white"
+            let button2 = document.createElement("button");
+            button2.innerText = "Starter";
+            button2.style.backgroundColor = "white"
+            let button3 = document.createElement("button");
+            button3.innerText = "Pro";
+            button3.style.backgroundColor = "white"
+            let button4 = document.createElement("button");
+            button4.innerText = "Enterprise";
+            button4.style.backgroundColor = "white"
+            comparetop.append(button1,button2,button3,button4);
+            container.append(comparetop);
+            let compareget = document.createElement("div");
+            let button = document.createElement("button");
+            button.innerText = "Get Started";
+            compareget.append(button);
+            container.append(compareget);
+            let comparebody = document.createElement("div");
+            let compare1 = document.createElement("div");
+            let p = document.createElement("p");
+            p.innerText = "Save prospects into Google Sheets";
+            let image = document.createElement("img");
+            image.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+            
+            compare1.append(p,image);
+
+            let compare2 = document.createElement("div");
+            let p1 = document.createElement("p");
+            p1.innerText = "Capture contacts into Hubspot CRM";
+            let image1 = document.createElement("img");
+            image1.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare2.append(p1,image1);
+
+            let compare3 = document.createElement("div");
+            let p2 = document.createElement("p");
+            p2.innerText = "Capture contacts into Hubspot CRM";
+            let image2 = document.createElement("img");
+            image2.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare3.append(p2,image2);
+
+            let compare4 = document.createElement("div");
+            let p3 = document.createElement("p");
+            p3.innerText = "Capture contacts into Hubspot CRM";
+            let image3 = document.createElement("img");
+            image3.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare4.append(p3,image3);
+
+            let compare5 = document.createElement("div");
+            let p4 = document.createElement("p");
+            p4.innerText = "Capture contacts into Hubspot CRM";
+            let image4 = document.createElement("img");
+            image4.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare5.append(p4,image4);
+
+            let compare6 = document.createElement("div");
+            let p5 = document.createElement("p");
+            p5.innerText = "Capture contacts into Hubspot CRM";
+            let image5 = document.createElement("img");
+            image5.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare6.append(p5,image5);
+
+            let compare7 = document.createElement("div");
+            let p6 = document.createElement("p");
+            p6.innerText = "Capture contacts into Hubspot CRM";
+            let image6 = document.createElement("img");
+            image6.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare7.append(p6,image6);
+
+            let compare8 = document.createElement("div");
+            let p7 = document.createElement("p");
+            p7.innerText = "Capture contacts into Hubspot CRM";
+            let image7 = document.createElement("img");
+            image7.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare8.append(p7,image7);
+
+            let compare9 = document.createElement("div");
+            let p8 = document.createElement("p");
+            p8.innerText = "Capture contacts into Hubspot CRM";
+            let image8 = document.createElement("img");
+            image8.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare9.append(p8,image8);
+
+            let compare10 = document.createElement("div");
+            let p9 = document.createElement("p");
+            p9.innerText = "Capture contacts into Hubspot CRM";
+            let image9 = document.createElement("img");
+            image9.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare10.append(p9,image9);
+
+            let compare11 = document.createElement("div");
+            let p10 = document.createElement("p");
+            p10.innerText = "Capture contacts into Hubspot CRM";
+            let image10 = document.createElement("img");
+            image10.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare11.append(p10,image10);
+
+            let compare12 = document.createElement("div");
+            let p11 = document.createElement("p");
+            p11.innerText = "Capture contacts into Hubspot CRM";
+            let image11 = document.createElement("img");
+            image11.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare12.append(p11,image11);
+
+            let compare13 = document.createElement("div");
+            let p12 = document.createElement("p");
+            p12.innerText = "Capture contacts into Hubspot CRM";
+            let image12 = document.createElement("img");
+            image12.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare13.append(p12,image12);
+
+            let compare14 = document.createElement("div");
+            let p13 = document.createElement("p");
+            p13.innerText = "Capture contacts into Hubspot CRM";
+            let image13 = document.createElement("img");
+            image13.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare14.append(p13,image13);
+
+            let compare15 = document.createElement("div");
+            let p14 = document.createElement("p");
+            p14.innerText = "Capture contacts into Hubspot CRM";
+            let image14 = document.createElement("img");
+            image14.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare15.append(p14,image14);
+
+            let compare16 = document.createElement("div");
+            let p15 = document.createElement("p");
+            p15.innerText = "Capture contacts into Hubspot CRM";
+            let image15 = document.createElement("img");
+            image15.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare16.append(p15,image15);
+
+            let compare17 = document.createElement("div");
+            let p16 = document.createElement("p");
+            p16.innerText = "Capture contacts into Hubspot CRM";
+            let image16 = document.createElement("img");
+            image16.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare17.append(p16,image16);
+
+            let compare18 = document.createElement("div");
+            let p17 = document.createElement("p");
+            p17.innerText = "Capture contacts into Hubspot CRM";
+            let image17 = document.createElement("img");
+            image17.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare18.append(p17,image17);
+
+            let compare19 = document.createElement("div");
+            let p18 = document.createElement("p");
+            p18.innerText = "Capture contacts into Hubspot CRM";
+            let image18 = document.createElement("img");
+            image18.src = "https://assets.website-files.com/60819f9be381394642b5659e/60a27e06bfe2395bda4b042c_check-activebig.svg"
+        
+            compare19.append(p18,image18);
+
+            comparebody.append(compare1,compare2,compare3,compare4,compare5,compare6,compare7,compare8,compare9,compare10,compare11,compare12,compare13,compare14,compare15,compare16,compare17,compare18,compare19);
+            container.append(comparebody);
+            
+        } else {
+            
+        }
+    }
+
+    var x = window.matchMedia("(max-width: 1000px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
+
+
+
+   
+
 </script> 
