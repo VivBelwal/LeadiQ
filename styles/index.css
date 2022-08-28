@@ -869,73 +869,6 @@ row-gap: 17.5px;
 
 /* footer Bottom */
 
-#footerBottom{
-  display: grid;
-  grid-template-columns: 20% 51% 15%;
-  color: #576F76;
-  column-gap: 8%;
-
-}
-#part2{
-  display: flex;
- margin-top: 10px;
-}
-
-#part2>a:hover{
-  color: #02B389;
-}
-#footerBottom a{
-  display: block;
-  font-size: 16px;
-  
-  text-decoration: none;
-  color: #576F76;
-  margin-left: 20px;
-}
-
-#part3{
-  display: flex;
-  margin-top: 10px;
-}
-
-#part3>a{
-
-  width: 32px;
-  height: 32px;
-  background-color: #0678E9;
-  border-radius: 50%;
-}
-#part3>a>img{
-  margin-left: 9px;
-  margin-top: 7px;
- 
-}
-#part3>a:nth-child(2)>img{
-  margin-top:9px;
-  margin-left: 7px;
-  }
-
- #part3>a:nth-child(3)>img{
-  margin-top:7px;
-  margin-left: 7px;
-  }
-
-  #part3>a:nth-child(4)>img{
-    margin-top:9px;
-    margin-left: 5px;
-    }
-
-    #part3>a:nth-child(2){
-      background-color:  #1EA1F2;
-         }
-
-    #part3>a:nth-child(3){
-      background-color:  #0766C1;
-      }
-    
-      #part3>a:nth-child(4){
-     background-color: red;
-        }
 
 /* 
  #0678E9
@@ -944,7 +877,78 @@ row-gap: 17.5px;
 */
 
 
+footer{
+  display: grid;
+  grid-template-columns: .4fr 1fr .4fr ;
+  color: #576F76;
+  font-size: 16px;
+  justify-content: space-around;
+  padding: 20px;
+  padding-bottom: 40px;
+}
+#part-1{
+  display: flex;
+  align-items: center;
+}
 
+#part-1>p{
+  color: #576F76;
+}
+#part2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#part2>a{
+  font-size: 16px;
+  color: #576F76;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+#part2>a:hover{
+  color: #02B389;
+}
+
+#part3{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+
+#part3>div{
+  /* padding: 5px; */
+  background-color: #0678E9;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+#part3>div>a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon{
+  position: relative;
+  width: 20px;
+  height: 15px;
+ top:10px
+  
+}
+
+#part3>div:nth-child(2){
+  background-color:  #1EA1F2;
+}
+
+#part3>div:nth-child(3){
+  background-color:  #0766C1;
+}
+    
+#part3>div:nth-child(4){
+  background-color: red;
+}
 
 
 

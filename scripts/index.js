@@ -88,9 +88,7 @@ walkmeContainer.addEventListener("mouseout", removeEffect);
  
  
  
-//  link(){
-//     window.location.href="pricing.html"
-//   }
+
  
 document.querySelector(".detailDiv>p").addEventListener("click",linkP)
 

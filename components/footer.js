@@ -103,42 +103,50 @@ function footer(){
 
   <!-- Footer Bottom -->
 
-  <div id="footerBottom">
+  <footer>
+            <!-- part 1 -->
+        <div id="part-1">
+            <p>© LeadIQ, Inc. All rights reserved.</p>
+        </div>
 
-    <!-- part 1 -->
-    <p>© LeadIQ, Inc. All rights reserved.</p>
 
-   <!-- part-2 -->
-   <div id="part2">
-
-    <a href="#">Privacy Policy</a>
-
-    <a href="#">Terms of Service</a>
-    <a href="#">Security</a>
-    <a href="#">Do Not Sell My Personal Information</a>
-   
+           <!-- part-2 -->
+        <div id="part2">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Security</a>
+            <a href="#">Do Not Sell My Personal Information</a>
+        </div>
+         
+        
+          <!-- part-3 -->
+        
+        <div id="part3">
+             <div>
+                <a href="#">
+                    <img class="social-icon" src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e5452d50f1f7a3fb3_leadiq-social-media-facebook.svg" alt="">
+                </a>
+             </div>
+             <div>
+                <a href="#">
+                    <img class="social-icon" src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4eee94984fa4071d52_leadiq-social-media-twitter.svg" alt="">
+                  </a>
+             </div>
+             <div>
+                <a href="#">
+                    <img class="social-icon" src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e288f5700bcb39bfd_leadiq-social-media-linkedin.svg" alt="">
+                 
+                </a>
+             </div>
+             <div>
+                <a href="#">
+                    <img class="social-icon" src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e9e444d3a934f9719_leadiq-social-media-youtube.svg" alt="">
+                </a>
+             </div>
+          
+        </div>
+    </footer>
   
-   </div>
- 
-
-  <!-- part-3 -->
-
-    <div id="part3">
-     <a href="#">
-      <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e5452d50f1f7a3fb3_leadiq-social-media-facebook.svg" alt="">
-  
-    </a>
-    <a href="#">
-      <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4eee94984fa4071d52_leadiq-social-media-twitter.svg" alt="">
-  
-    </a>
-    <a href="#">
-      <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e288f5700bcb39bfd_leadiq-social-media-linkedin.svg" alt="">
-   
-    </a>
-    <a href="#"> <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e9e444d3a934f9719_leadiq-social-media-youtube.svg" alt="">
-    </a>
-     </div>
    <!-- Footer Bottom  End-->
 
    </div>
@@ -147,5 +155,46 @@ function footer(){
 
   `
 }
+
+
+
+
+
+{/* <div id="footerBottom">
+
+<!-- part 1 -->
+<p>© LeadIQ, Inc. All rights reserved.</p>
+
+<!-- part-2 -->
+<div id="part2">
+
+<a href="#">Privacy Policy</a>
+
+<a href="#">Terms of Service</a>
+<a href="#">Security</a>
+<a href="#">Do Not Sell My Personal Information</a>
+
+
+</div>
+
+
+<!-- part-3 -->
+
+<div id="part3">
+ <a href="#">
+  <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e5452d50f1f7a3fb3_leadiq-social-media-facebook.svg" alt="">
+
+</a>
+<a href="#">
+  <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4eee94984fa4071d52_leadiq-social-media-twitter.svg" alt="">
+
+</a>
+<a href="#">
+  <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e288f5700bcb39bfd_leadiq-social-media-linkedin.svg" alt="">
+
+</a>
+<a href="#"> <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081cb4e9e444d3a934f9719_leadiq-social-media-youtube.svg" alt="">
+</a>
+ </div> */}
 
 export default footer
