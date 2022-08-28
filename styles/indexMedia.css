@@ -13,12 +13,12 @@
   }
 
   #prosPect>div:first-child{
-    width: 495px;
+    width: 405px;
     /* width:36% ; */
     height: 526px;
    color: white;
   
-  
+  margin-left: 50px;
    position: relative;
    top: 0px;
    left: 56px;
@@ -37,13 +37,13 @@ font-size: 42px;
      #inputWork{
    
      
-       width: 370px;
+   
        border: 1px solid #DAE2E3;
        
-       padding: 5px 10px;
+      
        
      }
-     
+  
     
      #prosPect>div:first-child>#companayImg{
      width: 450px;
@@ -61,55 +61,37 @@ font-size: 42px;
     
      #pros>div:first-child>img{
        width: 100%;
-       margin-left: 50px;
+       
      }
      #pros>div:last-child{
       margin-left: -50px;
       left: 0px;
     width:630px ;
       }
+      #pros>div:last-child{
+        position: relative;
+        width: 662px;
+        
+      
+        top: 8px;
+        left: 150px;
+    
+       
+        
+      }
 
       /* =========SALES SECTION=========== */
       #salesSection{
- width: 100%;
- background-position: 100% 70%;
-  background-size:50% ;
-      }
-      #leadAllow>div>p{
-        width: 250px;
-      }
-      /* #salesSection{
-
-        height: 800.203px;
-    width: 99.8%;
-    padding: 140px 0px;
-    background: url(https://assets.website-files.com/60819f9be381394642b5659e/6081b42dfc784618c92acce7_leadiq-activities-background-2.svg);
-    background-repeat: no-repeat;
-    
-    background-position: 98% 37%;
-    background-color: #F4FBFC;
-    margin: auto;
-    
-    margin-top: 150px;
-      } */
-     
-  
-  #saleMid{
-    height : 590px;
- width: 95%;
- margin: auto;
- margin-top: 55px;
- 
- 
- display: flex;
- gap: 0px;
-   }
-#back2{
-        
-    width: 70%;
-    background-position: 6.5% 55%;
-}
-
+        width: 100%;
+        background-position: 100% 35%;
+          
+             }
+            
+       #back2{
+        left: 0px;
+           width: 715px;
+           background-position: 6.5% 70%;
+       }
 /* =========Director section======= */
 
 #image-wrap{
@@ -122,25 +104,67 @@ font-size: 42px;
 
     /* ============= LOCATING CONTACT DATA =============== */
    
+    #locatingContact{
+      width:100% ;
+      height: auto;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+     
+    }
+
     #contant{
-        width: 80%;
-        /* margin-top: 200px; */
+      width: 80%;
+     
+      margin-left: 70px;
+      
+      position: relative;
+      top: 0px;
+      margin-top: 50px;
+      
+    }
+      #iceBurg{
        
-        margin-bottom: 20px;
+        width: 100%;
+       margin-top: 195px;
+     
+        
       }
   
-  
-     #iceBurg>img{
+     /* #iceBurg>img{
         width: 110%;
-      }
+      } */
     
        /* ====================== Clari SECTION =====================  */
        #walkme-section{
      
   background-position: 108% 10%, 53% 85%;
         }
-
-
+        #read-btn{
+          position: relative;
+          right: 20%;
+          top: 30px;
+        }
+        #read-btn>a{
+          text-decoration: none;
+            color: #063C4D;
+            padding: 20px 35px;
+            border-radius: 30px;
+            font-size: 18px;
+            margin-left: 5px;
+           
+        }
+        /* =========work flow======= */
+        .headings{
+          font-size: 35px;
+          width: 60%;
+          margin: auto;
+          line-height: 50px;
+          word-spacing: 2px;
+          letter-spacing: 1px;
+          text-align: center;
+          margin-bottom: 80px;
+          color: #063C4D;
+        }
         /* footer */
 
         #footerContainer>div:first-child{
@@ -155,405 +179,240 @@ font-size: 42px;
           margin-left: 0px;
          
         }
+        
+       
+
+
+
+
         #footerBottom{
-          
-          column-gap: 60px;
+          display: grid;
+          grid-template-columns: 20% 51% 15%;
+          color: #576F76;
+          column-gap: 5%;
         
         }
+      
+        
        
 }
 
 
+/* ==========Media Query ============= */
+
+
 @media all and (min-width:780px) and (max-width:997px){
 
-    /* ==========Prospect========== */
+  /* ==========Prospect========== */
 
-  #prosPect{
-   flex-direction: column;
- }
-  
- #pros{
+#prosPect{
+ flex-direction: column;
+}
+
+#pros{
 background-position: 100% 0%;
-   
+ 
 margin-left: 120px;
-    margin-top: 40px;
-  }
-  #pros>div:first-child{
+  margin-top: 40px;
+}
+#pros>div:first-child{
+
+  width:350px ;
+ 
+  margin-top: 10px;
+ left: 0px;
   
-    width:350px ;
-   
-    margin-top: 10px;
-   left: 0px;
-    
-   
-  }
+ 
+}
 
-  /* ==========SALES SECTION=============== */
+/* ==========SALES SECTION=============== */
 
-  #salesSection{
+#salesSection{
 height: auto;
 background-position: 90% 58%;
 background-color: #F4FBFC;
 padding-bottom: 400px;
-  }
- 
- 
+}
 
-  #saleMid{
-   height : 837px;
+
+
+#saleMid{
+ height : 837px;
 width: 95%;
 
 flex-direction: column;
 
 
-  }
-  
+}
+
 #leadAllow>div{
- 
-    width: 630px;
+
+  width: 630px;
+
+}
+
+#back2{
   
-  }
-
-  #back2{
-    
-    width: 95%;
-    }
-    
-  #locatingContact{
-    width:100% ;
-    height: auto;
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-
+  width: 95%;
   }
   
-  #iceBurg{
-   position: relative;
-    
-    left: 10px;
-  }
-
-  #contant{
-    width: 80%;
-    margin-top: 50px;
-    margin-left: 70px;
-    margin-bottom: 10px;
-  }
- /* ============Director section========*/
-
- #hovering-box{
+#locatingContact{
+  width:100% ;
+  height: auto;
   display: grid;
-  grid-template-columns: .8fr;
+  grid-template-columns: repeat(1,1fr);
 
+}
+
+#iceBurg{
+ position: relative;
+  
+  left: 10px;
+}
+
+#contant{
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+}
+/* ============Director section========*/
+#hovering-box{
  
-  grid-template-areas: "b"
-                        "a";
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  border: 1px solid #c3c0c0;
+  border-radius: 30px;
+  padding: 80px 0px 80px 0px;
+  gap: 10px;
+  background-color: #fff;
+  grid-template-areas: "a b";
+  border: 1px solid red;
+}
+#hovering-box{
+display: grid;
+grid-template-columns: .8fr;
+
+
+grid-template-areas: "b"
+                      "a";
+}
+#image-wrap{
+  text-align: center;
+  width: 80%;
+  background-color: #dcf8eec2;
+  border-radius: 30px;
+ grid-area: a;
+  padding: 10px 20px;
+  margin-right: 10px;
+border: 1px solid red;
 }
 #image-wrap{
 
-  background-color: #dcf8eec2;
+background-color: #dcf8eec2;
 
 }
 
+#image-wrap{
+  width: 50%;
+}
+#image-wrap>img{
+  width: 90%;
+}
 
-    /* ========Clari SECTION======== */
 
-    #walkme-section{
-      display: grid;
-      grid-template-columns: 1fr ;
-      margin-top: 100px;
-      gap: 110px;
-      justify-content: center;
-      align-items: center;
-      background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b60eb70e424bb5d121_leadiq-case-study-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b6fbae857af2a01631_leadiq-case-study-background-1.svg);
-      background-position: 108% 70%, 0% 100%;
-      background-repeat: no-repeat;
-      margin-bottom: 100px;
-  
-  }
+  /* ========Clari SECTION======== */
 
-  /* =========work flow=========== */
-
-  .headings{
-   
-    width: 80%;
- 
-  }
-
-  #card-wrapper{
+  #walkme-section{
     display: grid;
-    grid-template-columns: repeat(2,60%);
-    column-gap:-20% ; 
-   row-gap: 10px;
-  
+    grid-template-columns: 1fr ;
+    margin-top: 100px;
+    gap: 110px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b60eb70e424bb5d121_leadiq-case-study-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b6fbae857af2a01631_leadiq-case-study-background-1.svg);
+    background-position: 108% 70%, 0% 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+
+}
+
+/* =========work flow=========== */
+
+.headings{
+ 
+  width: 80%;
+
+}
+
+#card-wrapper{
+  display: grid;
+  grid-template-columns: repeat(2,60%);
+  column-gap:-20% ; 
+ row-gap: 10px;
+
 }
 #card-wrapper>.cards:first-child{
- 
- left: 20px;
+
+left: 20px;
 }
 #card-wrapper>.cards:nth-child(2){
 
-  right: 80px;
- }
- #card-wrapper>.cards:nth-child(3){
- 
-  left: 20px;
- }
+right: 80px;
+}
+#card-wrapper>.cards:nth-child(3){
+
+left: 20px;
+}
 .cards{
-  width: 60%;
-  position: relative;
- }
- 
+width: 60%;
+position: relative;
+}
 
- /*===========Footer Section========== */
 
- #footerContainer>div:first-child{
-  display: grid;
-  grid-template-columns: repeat(1,48%);
-  column-gap: 4%;
-  row-gap: 50px;
-  height: 62px;
-  align-items: center;
+/*===========Footer Section========== */
+
+#footerContainer>div:first-child{
+display: grid;
+grid-template-columns: repeat(1,48%);
+column-gap: 4%;
+row-gap: 50px;
+height: 62px;
+align-items: center;
 }
 
 #footerContainer>div:first-child>div:last-child>a:first-child{
-  margin-left: 0px;
- 
+margin-left: 0px;
+
 }
 #footerContainer>div:first-child a{
- 
-  padding: 15px 20px;
+
+padding: 15px 20px;
 
 
 }
 #midFooter{
 
-  width: 100%;
-  margin-top: 70px;
+width: 100%;
+margin-top: 70px;
 
-  display: grid;
-  grid-template-columns: 19% 23% 12.5% 25%;
-  column-gap: 2%;
+display: grid;
+grid-template-columns: 19% 23% 12.5% 25%;
+column-gap: 2%;
 }
 #midfoot2>div:last-child{
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
- row-gap: 17.5px;
- }
- #footerBottom{
-  display: grid;
-  grid-template-columns: 10% 31% 10%;
-  color: #576F76;
-  column-gap: 100px;
+display: grid;
+grid-template-columns: repeat(1,1fr);
+row-gap: 17.5px;
+}
+#footerBottom{
+display: grid;
+grid-template-columns: 10% 31% 10%;
+color: #576F76;
+column-gap: 100px;
 
 }
 }
 
 
-@media all and (min-width:320px) and (max-width:780px){
-    
-
-
-    /* ==========Prospect========== */
-
-    #prosPect{
-      flex-direction: column;
-      margin-top: 90px;
-
-    }
-    
-     #prosPect>div:first-child>h1{
-      font-size: 42px;
-     
-    }
-
-    #prosPect>div:first-child>#leadText{
-     
-      font-size: 20px;
-    
-   }
-   #pros>div:first-child{
-  
-    width:350px ;
-   
-    margin-top: 0px;
-   left: 0px;
-    
-   
-  }
-  #pros>div:last-child{
-    position: relative;
-    width:662px ;
-    height: 586px;
-    left: 32%;
-    top: 80px;
-  }
-   
-     /* ==========SALES SECTION=============== */
-   
-     #salesSection{
-   height: auto;
-   background-position: 90% 58%;
-   background-color: #F4FBFC;
-   padding-bottom: 400px;
-     }
-    
-    
-   
-     #saleMid{
-      height : 837px;
-   width: 95%;
-   
-   flex-direction: column;
-   
-   
-     }
-     
-   #leadAllow>div{
-    
-       width: 630px;
-     
-     }
-   
-     #back2{
-       
-       width: 95%;
-       }
-       
-     #locatingContact{
-       width:100% ;
-       height: auto;
-       display: grid;
-       grid-template-columns: repeat(1,1fr);
-   
-     }
-     
-     #iceBurg{
-      position: relative;
-       
-       left: 10px;
-     }
-   
-     #contant{
-       width: 80%;
-       margin-top: 50px;
-       margin-left: 70px;
-       margin-bottom: 10px;
-     }
-    /* ============Director section========*/
-   
-    #hovering-box{
-     display: grid;
-     grid-template-columns: .8fr;
-   
-    
-     grid-template-areas: "b"
-                           "a";
-   }
-   #image-wrap{
-   
-     background-color: #dcf8eec2;
-   
-   }
-   
-   
-       /* ========Clari SECTION======== */
-   
-       #walkme-section{
-         display: grid;
-         grid-template-columns: 1fr ;
-         margin-top: 100px;
-         gap: 110px;
-         justify-content: center;
-         align-items: center;
-         background-image: url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b60eb70e424bb5d121_leadiq-case-study-background-2.svg), url(https://assets.website-files.com/60819f9be381394642b5659e/6081c1b6fbae857af2a01631_leadiq-case-study-background-1.svg);
-         background-position: 108% 70%, 0% 100%;
-         background-repeat: no-repeat;
-         margin-bottom: 100px;
-     
-     }
-   
-     /* =========work flow=========== */
-   
-     .headings{
-      
-       width: 80%;
-    
-     }
-   
-     #card-wrapper{
-       display: grid;
-       grid-template-columns: repeat(1,100%);
-       column-gap:-20% ; 
-      row-gap: 10px;
-     
-   }
-   #card-wrapper>.cards:first-child{
-    
-    left: 40px;
-   }
-   #card-wrapper>.cards:nth-child(2){
-   
-     
-    }
-    #card-wrapper>.cards:nth-child(3){
-    
-     left: 20px;
-    }
-   .cards{
-     width: 60%;
-     position: relative;
-    }
-    
-   
-    /*===========Footer Section========== */
-   
-    #footerContainer>div:first-child{
-     display: grid;
-     grid-template-columns: repeat(1,48%);
-     column-gap: 4%;
-     row-gap: 50px;
-     height: 62px;
-     align-items: center;
-   }
-   
-   #footerContainer>div:first-child>div:last-child>a:first-child{
-     margin-left: 0px;
-    
-   }
-   #footerContainer>div:first-child {
-    
-  display: grid;
-  grid-template-columns: repeat(1,1fr);
-  row-gap: 10px;
-  
-  }
-   #footerContainer>div:first-child a{
-    display: block;
-     padding: 15px 200px;
-   
-   
-   }
-   #midFooter{
-   
-     width: 100%;
-     margin-top: 70px;
-   
-     display: grid;
-     grid-template-columns: repeat(2,1fr);
-     column-gap: 2%;
-   }
-   #midfoot2>div:last-child{
-     display: grid;
-     grid-template-columns: repeat(1,1fr);
-    row-gap: 17.5px;
-    }
-    #footerBottom{
-     display: grid;
-     grid-template-columns: repeat(1,1fr);
-     color: #576F76;
-     column-gap: 100px;
-   
-   }
-
-}
