@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./scripts/bookdemo.js"></script>
     <link rel="stylesheet" href="./styles/bookdemo.css">
     <title>LeadIQ | Book a demo
     </title>
@@ -36,27 +35,32 @@
                     <h2>Book a demo</h2>
                     <label for="f-name">First Name <span>*</span></label>
 <br>                    
-                    <input type="text">
+                    <input id="inp1" type="text">
+                    <p class="error" id="err1">Please complete this required field.</p>
 <br>
                     <label for="l-name">Last name <span>*</span></label>
 <br>
-                    <input type="text">
+                    <input id="inp2" type="text">
+                    <p class="error" id="err2">Please complete this required field.</p>
 <br>
                     <label for="work-email">Work Email <span>*</span></label>
 <br>
-                    <input type="text">
+                    <input id="inp3" type="text">
+                    <p class="error" id="err3">Please complete this required field.</p>
 <br>
                     <label for="phone">Phone Number <span>*</span></label>
 <br>
-                    <input type="text">
+                    <input id="inp4" type="text">
+                    <p class="error" id="err4">Please complete this required field.</p>
 <br>
                     <label for="c-name">Company Name <span>*</span></label>
 <br>
-                    <input type="text">
+                    <input id="inp5" type="text">
+                    <p class="error" id="err5">Please complete this required field.</p>
 <br>
                     <label for="role">Role <span>*</span></label>
 <br>
-                    <select>
+                    <select id="inp6">
                         <option value="Please Select">Please Select</option>
                         <option value="Closer">Closer (AE, AM, etc.)</option>
                         <option value="Marketing">Marketing</option>
@@ -65,8 +69,9 @@
                         <option value="Revenue Operations">Revenue Operations</option>
                         <option value="Qualifier">Qualifier (SDR, BDR, etc.)</option>
                     </select>
+                    <p class="error" id="err6">Please complete this required field.</p>
 <br>
-                    <button>Let's Connect</button>
+                    <button id="connect">Let's Connect</button>
                 </form>
             </div>
         </div>
@@ -143,7 +148,7 @@
 
     <div id="crouser-background">
         <div id="crouser-holder">
-            <div class="crouser" >
+            <!-- <div class="crouser" >
                 <div class="couser-img-div">
                     <img src="https://assets.website-files.com/60819f9be381394642b5659e/6081b679baa783d764f6fc80_leadiq-image-testimonial-icon.svg" alt="">
                 </div>
@@ -204,7 +209,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -310,5 +315,7 @@
 </body>
 </html>
 
-<script src="./scripts/features.js" type="module">       
-</script>
+<!-- <script src="./scripts/features.js" type="module">       
+</script> -->
+
+<script src="./scripts/bookdemo.js"></script>
