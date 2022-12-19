@@ -59,7 +59,9 @@ This project was built by a team of 4 developers in 5 Days.
 
 ---
 
-![Home](https://raw.githubusercontent.com/VivBelwal/LeadiQ/main/Images/home.png)
+[Home]
+
+<img src="https://raw.githubusercontent.com/VivBelwal/LeadiQ/main/Images/home.png" alt ="Home" />
 
 <br/>
 
