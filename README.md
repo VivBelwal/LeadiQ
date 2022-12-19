@@ -59,38 +59,31 @@ This project was built by a team of 4 developers in 5 Days.
 
 ---
 
-![Home]()
+[Home]
+
+<img src="https://raw.githubusercontent.com/VivBelwal/LeadiQ/main/Images/home.png" alt ="Home" />
 
 <br/>
 
-![Login]()
 
-<br/>
-<br/>
-
-![Book a demo]()
+![Book a demo](https://raw.githubusercontent.com/VivBelwal/LeadiQ/main/Images/bookDemo.png)
 
 <br/>
 <br/>
 
-![Features]()
+![Features](https://raw.githubusercontent.com/VivBelwal/LeadiQ/main/Images/Features.png)
 
 <br/>
 <br/>
 
-![Privacy Center]()
+![Privacy Center](https://raw.githubusercontent.com/VivBelwal/LeadiQ/main/Images/privacy.png)
 
 <br/>
 <br/>
 
-![Pricing]()
+![Pricing](https://raw.githubusercontent.com/VivBelwal/LeadiQ/main/Images/Pricing.png)
 
 <br/>
 <br/>
 
-![Checkout]()
 
-<br/>
-<br/>
-
-![Payment]()
